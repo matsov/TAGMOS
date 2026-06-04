@@ -1,4 +1,7 @@
-# T Λ G M ⨀ S - research · v4.5.11
+![alt text]()
+
+
+# TAGMOS - research · v4.5.11
 
 Research-use-only distribution of the TAGMOS framework for individual-level
 classification of gut microbiome ecosystems via a 24-axis architecture of
