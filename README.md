@@ -119,9 +119,7 @@ Compatible with outputs from common functional metagenomics pipelines
 
 If you use TAGMOS-research in your work, please cite:
 
-> Soverini M, et al. *Pipeline-agnostic
-> multi-axis functional state-space for individual-level gut microbial
-> ecosystem stratification.* (2026) BiorXiv
+> Soverini M, et al. *Functional multi-axis decomposition of the human gut microbiome: reveals operational definition of eubiosis and dysbiosis* (2026) BiorXiv
 
 See `CITATION.cff` for machine-readable metadata.
 
