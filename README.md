@@ -1,4 +1,4 @@
-![alt text]()
+![alt text](https://github.com/matsov/TAGMOS/blob/main/TΛGM%CA%98S_Logo.jpg)
 
 
 # TAGMOS - research · v4.5.11
