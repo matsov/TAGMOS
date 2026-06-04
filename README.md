@@ -1,4 +1,4 @@
-# T Λ G M ⨀ S - research · v4.5.11-public-2D
+# T Λ G M ⨀ S - research · v4.5.11
 
 Research-use-only distribution of the TAGMOS framework for individual-level
 classification of gut microbiome ecosystems via a 24-axis architecture of
@@ -108,13 +108,9 @@ Compatible with outputs from common functional metagenomics pipelines
   (μ, σ, tertile cutoffs from the proprietary calibration). These are
   available from the corresponding author upon reasonable request,
   subject to a confidentiality agreement.
-- **Production composite formula coefficients** beyond the conservative
-  publishable weights used in `compute_composites()`. The clinically
-  validated weights are proprietary.
 - **The WMP upstream profiling pipeline.** This software starts from a
   sample × EC count matrix and is upstream-agnostic — use any pipeline
   you prefer to produce the EC matrix.
-- **A graphical interface.** This is a command-line research distribution.
 
 ## Citation
 
