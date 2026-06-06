@@ -1,150 +1,193 @@
 ![alt text](https://github.com/matsov/TAGMOS/blob/main/TΛGM%CA%98S_Logo.jpg)
 
 
-# TAGMOS - research · v4.5.11
+# TAGMOS — public research bundle v10.5
 
-Research-use-only distribution of the TAGMOS framework for individual-level
-classification of gut microbiome ecosystems via a 24-axis architecture of
-140 curated bottleneck enzyme commission entries.
+**TAGMOS** is a substrate-functional multi-axis framework for stratifying the
+human gut microbiome. It reduces a metagenome to a small set of single-output
+axes calibrated on a reference cohort, partitions samples into four ordinal
+tiers (T1_EUBIOTIC → T4_DYSBIOTIC) and produces an operational definition of
+eubiosis and dysbiosis that has been externally validated across 18,138
+metagenomes (92 cMD studies) and tested for cross-population transferability
+on > 590 traditional / paleofecal samples.
 
-> **License:** All components (code, schema, helpers) are released under the
-> **TAGMOS Academic Research License v1.0** — academic research use ONLY.
-> Commercial use of the Software, of its outputs ("Results"), or of any
-> derivative work is prohibited and requires a separate written commercial
-> license from the corresponding author (Wellmicro S.r.l.). See `LICENSE`.
-> **No clinical or commercial use.** No calibration data are shipped — you
-> must build your own calibration on your reference cohort.
+This bundle is the **public release for academic, non-commercial research use**.
 
-## What's in the box
-
-```
-TAGMOS-research-v4.5.11-public-2D/
-├── README.md                                       # this file
-├── CALIBRATION.md                                  # how to build your own calibration
-├── LICENSE                                         # TAGMOS Academic Research License v1.0
-├── LICENSE-SCHEMA                                  # Schema-specific terms (academic use only)
-├── CITATION.cff                                    # how to cite
-├── requirements.txt                                # pip dependencies
-├── TAGMOS/
-│   ├── __init__.py
-│   ├── classifier.py                               # core scoring (CLI: -m TAGMOS.classifier)
-│   ├── calibrate.py                                # build calibration from controls
-│   └── data/
-│       ├── TAGMOS_schema_v4511_public_2D.json     # PUBLIC schema: 24 axes paper-aligned 2D
-│       └── TAGMOS_calibration_TEMPLATE.json       # placeholder calibration (NOT clinical)
-└── examples/
-    ├── synthetic_ec.tsv                            # tiny demo input
-    └── demo_run.sh                                 # end-to-end example
-```
-
-## Quickstart
-
-### 1 · install Python dependencies
-
-```bash
-python3 -m pip install -r requirements.txt
-```
-
-### 2 · build your calibration
-
-This software ships **without** calibration data. To produce meaningful
-classifications you must construct a calibration JSON from a sample × EC
-count table of *healthy reference controls* drawn from your own cohort
-or institution. Minimum 50 controls (recommended ≥ 200).
-
-```bash
-python3 -m TAGMOS.calibrate \
-    --controls my_healthy_controls_ec.tsv \
-    --output   my_calibration.json \
-    --calibration-id "my_cohort_v1"
-```
-
-Read **CALIBRATION.md** for the full protocol (sample-pipeline matching,
-quality control, axis sanity checks).
-
-### 3 · classify samples
-
-```bash
-python3 -m TAGMOS.classifier \
-    --ec-tsv      my_samples_ec.tsv \
-    --calibration my_calibration.json \
-    --output      my_samples_TAGMOS.tsv
-```
-
-Output: per-sample TSV with 24 axis z-scores + 18 composite indices +
-tier/class assignments. A `*.manifest.json` sidecar records SHA-256
-hashes of the input, schema, calibration, and output for provenance.
-
-## Demo
-
-Run the end-to-end example on the synthetic dataset shipped under
-`examples/`:
-
-```bash
-bash examples/demo_run.sh
-```
-
-This will (i) build a (toy) calibration from the synthetic controls,
-(ii) classify the synthetic samples, (iii) print the first lines of the
-classification output. It uses only the dummy template calibration, so
-the resulting scores are **not** clinically interpretable — the demo is
-purely for verifying that the software runs end-to-end on your system.
-
-## Input format
-
-Tab-separated values, first column is the sample id, remaining columns
-are EC numbers (e.g. `1.1.1.1`, `2.3.1.85`, ...). Counts are non-negative
-floats or integers; the classifier applies `log1p` then z-scoring internally.
-
-```
-sample_id    1.1.1.1   1.1.1.27   2.3.1.85   ...
-SAMP_001     42        0          17         ...
-SAMP_002     8         13         1          ...
-```
-
-Compatible with outputs from common functional metagenomics pipelines
-(WMP, HUMAnN3 after EC aggregation, custom EC profilers).
-
-## What this software does NOT contain
-
-- **L0 calibration data** from the 10,000-subject Italian reference cohort
-  (μ, σ, tertile cutoffs from the proprietary calibration). These are
-  available from the corresponding author upon reasonable request,
-  subject to a confidentiality agreement.
-- **The WMP upstream profiling pipeline.** This software starts from a
-  sample × EC count matrix and is upstream-agnostic — use any pipeline
-  you prefer to produce the EC matrix.
-
-## Citation
-
-If you use TAGMOS-research in your work, please cite:
-
-> Soverini M, et al. *Functional multi-axis decomposition of the human gut microbiome: reveals operational definition of eubiosis and dysbiosis* (2026) BiorXiv
-
-See `CITATION.cff` for machine-readable metadata.
-
-## License & contact
-
-All components (code, schema, examples, helpers) are released under the
-**TAGMOS Academic Research License v1.0** (see `LICENSE`).
-
-This License authorizes use of the Software ONLY for non-commercial
-academic research conducted within a recognized academic, public-research
-or non-profit research institution. Any commercial use of the Software,
-of its outputs ("Results"), or of any derivative work is expressly
-prohibited and constitutes a material breach of the License. The
-non-commercial restriction propagates to and binds every derivative
-work, regardless of programming language or implementation medium.
-
-Commercial use, clinical deployment, IVD deployment, internal R&D in a
-for-profit organisation, monetization of Results, and any use that
-generates revenue requires a separate written commercial license from
-the Licensor — contact `andrea.castagnetti@wellmicro.com`.
-
-For calibration access under confidentiality agreement, scientific
-collaboration, or bug reports, contact
-`andrea.castagnetti@wellmicro.com`.
+> **Read first**: `LICENSE.md` (non-commercial-research-only · mandatory TAGMOS citation) and `QUICK_START.md` (15-minute walk-through).
 
 ---
 
-© 2026 Wellmicro S.r.l. All rights reserved.
+## What's inside
+
+```
+TAGMOS_PUBLIC_BUNDLE_v10_5/
+├── README.md                      ← this file
+├── LICENSE.md                     ← Public Research Licence v1.0
+├── QUICK_START.md                 ← 15-minute walk-through
+├── HOW_TO_CITE.md                 ← citation template + naming convention
+├── 00_FRAMEWORK_SPEC/             ← framework definition (no calibration numerics)
+│   ├── schema_tagmos_public_v4513.json
+│   ├── axes_registry.md
+│   ├── ec_dictionaries.md
+│   └── architecture_overview.md
+├── 01_VERSION_A_SINGLE_OUTPUT/    ← *paper 1 clean* · 14 single-output axes only
+│   ├── README_single.md
+│   ├── classifier_single.py
+│   ├── calibrate_local_single.py
+│   └── classify_local_single.py
+├── 02_VERSION_B
+├── 03_CALIBRATION_RECIPE/         ← step-by-step end-to-end calibration on YOUR cohort
+│   ├── CALIBRATION_PROTOCOL.md
+│   ├── minimum_cohort_requirements.md
+│   └── verify_calibration.py
+├── 04_DISEASE_ASSOCIATION_TEMPLATE/
+│   ├── README_disease_template.md
+│   ├── run_disease_OR.py          ← T4-vs-T1 odds ratio + 95% CI + q_BH
+│   ├── run_CA_trend.py            ← Cochran-Armitage T1→T4 trend Z
+│   └── run_cliff_delta.py         ← continuous Cliff δ per axis
+├── 05_VALIDATION_TOOLKIT/
+│   ├── beta_diversity_falsification.py
+│   ├── dimensional_saturation.py
+│   └── input_method_routing.py
+├── 06_EXAMPLES/
+│   ├── synthetic_demo_cohort_n300.tsv     ← synthetic EC count table
+│   ├── synthetic_outcomes_n300.tsv        ← synthetic disease outcomes
+│   └── walkthrough_results.md
+└── 07_FAQ.md
+```
+
+---
+
+
+### Version A · single-output axes only (paper 1 clean)
+
+`01_VERSION_A_SINGLE_OUTPUT/`
+
+- 14 framework single-output axes: **1 PRIMARY** (Engine z) + **2 CO-PRIMARY**
+  aggregator axes (SYN_cof, SYN_carb) + **11 independent ancillary channels**
+  (BA, TRP, PROT, MUC, HIS, IRON, LPS, ETU, TMA, UREM, HYS).
+- One z-score per axis per sample — no composite metrics.
+- This is the classifier used in *Soverini et al. bioRxiv 2026*.
+- Suitable for: monotonic clinical-gradient testing, cross-cohort replication,
+  reductionist disease-association analyses, methodological extensions of the
+  base framework.
+
+### Version B · with composite indices (research layer)
+ 
+ Under development
+
+---
+
+## What you need to provide
+
+To use TAGMOS on your own cohort you only need an EC-level functional
+count matrix, in the format:
+
+```
+EC_id           sample_A   sample_B   sample_C   ...
+EC_1.2.7.4      12         0          7
+EC_2.3.1.169    8          3          21
+EC_2.8.4.1      0          0          15
+...
+```
+
+Either Level-4 EC numbers from shotgun functional profilers (WMP, HUMAnN3,
+Meteor2) or any equivalent EC-level quantification.
+
+Plus, for disease-association analyses, a binary or ordinal outcome table:
+
+```
+sample_id    outcome_label    age    sex    BMI
+sample_A     control          45     F      24
+sample_B     case             52     M      27
+...
+```
+
+---
+
+## What this bundle does NOT contain (and why)
+
+The numeric values of the Wellmicro Italian RWE calibration anchor —
+per-axis mean, standard deviation and quartile / tertile cuts — are NOT
+released in this bundle. They are held as proprietary calibration parameters
+of Wellmicro S.r.l.
+
+**This does not prevent you from using TAGMOS.** The framework is designed so
+that any researcher can **calibrate on their own cohort** following the
+recipe in `03_CALIBRATION_RECIPE/`. The classifier scripts operate on the
+user's own calibration parameters, never on the Wellmicro frozen anchors.
+
+See `03_CALIBRATION_RECIPE/CALIBRATION_PROTOCOL.md` for the step-by-step
+procedure, and `07_FAQ.md` §3 for the rationale.
+
+---
+
+## Dependencies
+
+Python ≥ 3.9 with:
+
+```bash
+pip install numpy pandas scipy statsmodels
+```
+
+Optional (for visualisation):
+
+```bash
+pip install matplotlib seaborn
+```
+
+No external network access required at runtime. No proprietary database lookups.
+
+---
+
+## Quick start (15 minutes)
+
+```bash
+# 1. activate your Python env
+# 2. recalibrate on your cohort (one-time):
+cd 03_CALIBRATION_RECIPE
+python ../01_VERSION_A_SINGLE_OUTPUT/calibrate_local_single.py \
+  --ec-counts your_cohort_EC_counts.tsv \
+  --out my_calibration.json
+
+# 3. classify your samples:
+python ../01_VERSION_A_SINGLE_OUTPUT/classify_local_single.py \
+  --ec-counts your_cohort_EC_counts.tsv \
+  --calibration my_calibration.json \
+  --out my_classification.tsv
+
+# 4. run disease association on the result:
+cd ../04_DISEASE_ASSOCIATION_TEMPLATE
+python run_disease_OR.py \
+  --classification ../my_classification.tsv \
+  --outcomes your_outcomes.tsv \
+  --out disease_OR_results.tsv
+```
+
+End-to-end on the synthetic 300-sample demo cohort takes < 1 minute on a laptop.
+
+---
+
+## Citation requirement
+
+Use of this bundle for any publication, preprint, presentation, dataset or
+software release requires citation of the primary TAGMOS publication in the
+form specified in `HOW_TO_CITE.md` and `LICENSE.md` §4.
+
+Failure to cite TAGMOS as specified constitutes a breach of the Public
+Research Licence and terminates your right to use the Software.
+
+---
+
+## Help / contact
+
+For methodological questions or to report a bug:
+
+- File an issue on the public GitHub repository at: `https://github.com/<TBD>/TAGMOS`
+- Or contact the corresponding author: `andrea.castagnetti@wellmicro.com`
+
+For commercial licensing, see `LICENSE.md` §3 and §10.
+
+---
+
+*TAGMOS v10.5 public research bundle - Wellmicro®*
