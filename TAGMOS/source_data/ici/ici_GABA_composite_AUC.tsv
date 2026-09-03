@@ -1,0 +1,5 @@
+composite	cohort	endpoint	AUC	adj_beta	adj_p
+GABA_net(4.1.1.15-2.6.1.19)	ICI	ORR	0.42	-0.52	0.006
+GABA_net(4.1.1.15-2.6.1.19)	ICI	PFS12	0.446	-0.42	0.025
+GABA_synth(4.1.1.15)	ICI	ORR	0.396	-0.44	0.026
+GABA_synth(4.1.1.15)	ICI	PFS12	0.416	-0.41	0.033

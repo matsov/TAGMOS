@@ -1,0 +1,13 @@
+cohort	name	mode	n_pair	delta_feubioplus_mean	delta_feubioplus_median	frac_expected_dir	n_expected	p_wilcoxon	delta_mean_excl_suppress	n_pair_excl_suppress	donor_mean_feubioplus	paper_delta_EUBIO	note
+PRJEB20800	Palleja IV	abx	12	-4.13	-4.139	1.0	12.0	0.0005	-4.13	12.0		-1.15	
+PRJEB28058	Willmann oral	abx	41	-0.677	-0.248	0.756	31.0	0.0001	-0.677	41.0		-0.35	
+PRJEB47909	Ianiro/SFMT rCDI	FMT	11	3.225	3.718	1.0	11.0	0.001	3.225	11.0	0.114	3.28	
+PRJNA525458	Hourigan rCDI paed	FMT	8	2.85	3.859	0.75	6.0	0.0391	2.85	8.0	0.649	1.67	
+PRJNA701961	Watson rCDI	FMT	7	3.535	4.02	0.857	6.0	0.0312	3.535	7.0	0.917	1.56	
+PRJEB39023	Podlesny rCDI	FMT	8	2.472	2.569	0.875	7.0	0.0156	2.472	8.0	0.592	1.41	
+PRJEB23524	Smillie rCDI		0										not ENA-decodable
+PRJNA628604	Bar-Yoseph CPE	FMT	13	0.397	0.507	0.692	9.0	0.3396	0.397	13.0	0.851		
+PRJEB35816	Leo MDR	FMT	0									0.51	no paired pre/post decodable
+PRJEB44237	Koopen metabolic	FMT	24	-0.008	-0.02	0.458	11.0	0.8334	-0.008	24.0	1.42	0.02	
+PRJNA285502	Damman UC	FMT	6	-0.009	-0.312	0.167	1.0	0.4375	-0.009	6.0	0.681	-0.3	
+PRJNA321058	Vaughn Crohn		0										not ENA-decodable

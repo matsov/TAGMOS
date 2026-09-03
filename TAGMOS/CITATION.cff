@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the paper below."
+title: "TAGMOS: analysis code and source data"
+abstract: >-
+  Analysis code and aggregated source data for the paper
+  "Disease crosses a thermodynamic threshold in the human gut microbiome".
+license: MIT
+repository-code: "https://github.com/matsov/TAGMOS"
+authors:
+  - family-names: Soverini
+    given-names: Matteo
+    affiliation: "Wellmicro S.r.l., Bologna, Italy"
+  - family-names: Castagnetti
+    given-names: Andrea
+    affiliation: "Wellmicro S.r.l., Bologna, Italy"
+preferred-citation:
+  type: article
+  title: "Disease crosses a thermodynamic threshold in the human gut microbiome"
+  authors:
+    - family-names: Soverini
+      given-names: Matteo
+    - family-names: Castagnetti
+      given-names: Andrea
+  year: 2026
+  journal: "Submitted"

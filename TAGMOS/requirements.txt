@@ -1,0 +1,4 @@
+# The analysis scripts need only the scientific Python stack.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10

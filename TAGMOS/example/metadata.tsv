@@ -1,0 +1,661 @@
+sample_id	study_name	study_condition	disease_subtype	body_site	age	age_category	gender	BMI	country	number_reads	antibiotics_current_use	non_westernized	subject_id	disease
+S00001	StudyA_2020	CRC		stool	34	adult	male	23.4	FRA	50018541	no	no	S00001	CRC
+S00002	StudyA_2020	CRC		stool	65	adult	male	24.9	USA	33102042	no	no	S00002	CRC
+S00003	StudyA_2020	CRC		stool	69	adult	female	27.6	CHN	26998933	no	no	S00003	CRC
+S00004	StudyA_2020	CRC		stool	67	adult	female	25.4	DEU	47142745	no	no	S00004	CRC
+S00005	StudyA_2020	CRC		stool	32	adult	male	21.6	JPN	24345393	no	no	S00005	CRC
+S00006	StudyA_2020	CRC		stool	74	adult	female	12.9	ITA	39839644	no	no	S00006	CRC
+S00007	StudyA_2020	CRC		stool	62	adult	female	25.4	FRA	19489625	no	no	S00007	CRC
+S00008	StudyA_2020	CRC		stool	55	adult	male	30.1	USA	40944062	no	no	S00008	CRC
+S00009	StudyA_2020	CRC		stool	61	adult	male	23.0	CHN	24508934	no	no	S00009	CRC
+S00010	StudyA_2020	CRC		stool	63	adult	female	25.7	DEU	22061047	no	no	S00010	CRC
+S00011	StudyA_2020	CRC		stool	38	adult	female	24.5	JPN	24185371	no	no	S00011	CRC
+S00012	StudyA_2020	CRC		stool	36	adult	male	34.3	ITA	10180214	no	no	S00012	CRC
+S00013	StudyA_2020	CRC		stool	72	adult	female	21.8	FRA	33605690	no	no	S00013	CRC
+S00014	StudyA_2020	CRC		stool	32	adult	female	20.9	USA	76415629	no	no	S00014	CRC
+S00015	StudyA_2020	CRC		stool	40	adult	female	29.5	CHN	64667555	no	no	S00015	CRC
+S00016	StudyA_2020	CRC		stool	26	adult	male	40.3	DEU	25186118	no	no	S00016	CRC
+S00017	StudyA_2020	CRC		stool	32	adult	male	27.5	JPN	27419186	no	no	S00017	CRC
+S00018	StudyA_2020	CRC		stool	27	adult	male	24.4	ITA	19392656	no	no	S00018	CRC
+S00019	StudyA_2020	CRC		stool	51	adult	male	30.7	FRA	36192326	no	no	S00019	CRC
+S00020	StudyA_2020	CRC		stool	52	adult	female	25.6	USA	44591439	no	no	S00020	CRC
+S00021	StudyA_2020	CRC		stool	52	adult	male	18.9	CHN	31190073	no	no	S00021	CRC
+S00022	StudyA_2020	CRC		stool	71	adult	female	25.1	DEU	28012736	no	no	S00022	CRC
+S00023	StudyA_2020	CRC		stool	44	adult	female	22.7	JPN	22028534	no	no	S00023	CRC
+S00024	StudyA_2020	CRC		stool	25	adult	male	22.6	ITA	50421406	no	no	S00024	CRC
+S00025	StudyA_2020	CRC		stool	31	adult	female	26.9	FRA	18730777	no	no	S00025	CRC
+S00026	StudyA_2020	CRC		stool	69	adult	female	24.1	USA	26663209	no	no	S00026	CRC
+S00027	StudyA_2020	CRC		stool	62	adult	male	25.0	CHN	21416986	no	no	S00027	CRC
+S00028	StudyA_2020	CRC		stool	62	adult	female	21.2	DEU	50305826	no	no	S00028	CRC
+S00029	StudyA_2020	CRC		stool	38	adult	female	28.8	JPN	25335436	no	no	S00029	CRC
+S00030	StudyA_2020	CRC		stool	38	adult	male	29.0	ITA	42001765	no	no	S00030	CRC
+S00031	StudyA_2020	CRC		stool	72	adult	male	26.0	FRA	18953423	no	no	S00031	CRC
+S00032	StudyA_2020	CRC		stool	47	adult	female	22.5	USA	14462068	no	no	S00032	CRC
+S00033	StudyA_2020	CRC		stool	37	adult	male	25.4	CHN	27430646	no	no	S00033	CRC
+S00034	StudyA_2020	CRC		stool	62	adult	female	26.0	DEU	24943816	no	no	S00034	CRC
+S00035	StudyA_2020	CRC		stool	42	adult	female	28.2	JPN	44844552	no	no	S00035	CRC
+S00036	StudyA_2020	CRC		stool	48	adult	female	25.8	ITA	35384000	no	no	S00036	CRC
+S00037	StudyA_2020	CRC		stool	60	adult	male	29.4	FRA	14412417	no	no	S00037	CRC
+S00038	StudyA_2020	CRC		stool	40	adult	male	26.1	USA	25684285	no	no	S00038	CRC
+S00039	StudyA_2020	CRC		stool	48	adult	male	28.9	CHN	24489148	no	no	S00039	CRC
+S00040	StudyA_2020	CRC		stool	52	adult	female	25.5	DEU	27625990	no	no	S00040	CRC
+S00041	StudyA_2020	control		stool	44	adult	male	20.3	JPN	51249896	no	no	S00041	healthy
+S00042	StudyA_2020	control		stool	26	adult	female	24.6	ITA	32194346	no	no	S00042	healthy
+S00043	StudyA_2020	control		stool	33	adult	male	27.2	FRA	20974134	no	no	S00043	healthy
+S00044	StudyA_2020	control		stool	29	adult	female	22.5	USA	37815776	no	no	S00044	healthy
+S00045	StudyA_2020	control		stool	39	adult	male	22.3	CHN	31057133	no	no	S00045	healthy
+S00046	StudyA_2020	control		stool	57	adult	male	26.4	DEU	37000269	no	no	S00046	healthy
+S00047	StudyA_2020	control		stool	35	adult	male	26.5	JPN	41968530	no	no	S00047	healthy
+S00048	StudyA_2020	control		stool	32	adult	female	26.9	ITA	54226154	no	no	S00048	healthy
+S00049	StudyA_2020	control		stool	47	adult	male	22.4	FRA	28579205	no	no	S00049	healthy
+S00050	StudyA_2020	control		stool	37	adult	female	19.4	USA	14875988	no	no	S00050	healthy
+S00051	StudyA_2020	control		stool	36	adult	female	26.3	CHN	36077960	no	no	S00051	healthy
+S00052	StudyA_2020	control		stool	25	adult	male	24.5	DEU	25699750	no	no	S00052	healthy
+S00053	StudyA_2020	control		stool	63	adult	female	24.9	JPN	34946274	no	no	S00053	healthy
+S00054	StudyA_2020	control		stool	66	adult	male	23.9	ITA	15771049	no	no	S00054	healthy
+S00055	StudyA_2020	control		stool	74	adult	male	22.8	FRA	40303579	no	no	S00055	healthy
+S00056	StudyA_2020	control		stool	66	adult	male	30.5	USA	38509564	no	no	S00056	healthy
+S00057	StudyA_2020	control		stool	44	adult	male	30.2	CHN	38004006	no	no	S00057	healthy
+S00058	StudyA_2020	control		stool	69	adult	female	25.2	DEU	41298219	no	no	S00058	healthy
+S00059	StudyA_2020	control		stool	65	adult	female	23.1	JPN	34837809	no	no	S00059	healthy
+S00060	StudyA_2020	control		stool	43	adult	female	25.3	ITA	46590663	no	no	S00060	healthy
+S00061	StudyA_2020	control		stool	67	adult	female	25.9	FRA	40311244	no	no	S00061	healthy
+S00062	StudyA_2020	control		stool	39	adult	female	23.5	USA	41293473	no	no	S00062	healthy
+S00063	StudyA_2020	control		stool	44	adult	male	29.6	CHN	39372143	no	no	S00063	healthy
+S00064	StudyA_2020	control		stool	60	adult	female	23.3	DEU	58889136	no	no	S00064	healthy
+S00065	StudyA_2020	control		stool	55	adult	female	22.3	JPN	19552006	no	no	S00065	healthy
+S00066	StudyA_2020	control		stool	61	adult	female	30.3	ITA	29533232	no	no	S00066	healthy
+S00067	StudyA_2020	control		stool	26	adult	female	25.3	FRA	17435069	no	no	S00067	healthy
+S00068	StudyA_2020	control		stool	43	adult	female	23.9	USA	58775251	no	no	S00068	healthy
+S00069	StudyA_2020	control		stool	30	adult	female	32.7	CHN	24429681	no	no	S00069	healthy
+S00070	StudyA_2020	control		stool	47	adult	male	13.1	DEU	25346026	no	no	S00070	healthy
+S00071	StudyA_2020	control		stool	48	adult	male	17.6	JPN	20607848	no	no	S00071	healthy
+S00072	StudyA_2020	control		stool	70	adult	female	24.7	ITA	47213765	no	no	S00072	healthy
+S00073	StudyA_2020	control		stool	29	adult	female	18.8	FRA	27432157	no	no	S00073	healthy
+S00074	StudyA_2020	control		stool	32	adult	male	23.3	USA	20882160	no	no	S00074	healthy
+S00075	StudyA_2020	control		stool	66	adult	female	25.7	CHN	36265250	no	no	S00075	healthy
+S00076	StudyA_2020	control		stool	25	adult	female	17.2	DEU	40118423	no	no	S00076	healthy
+S00077	StudyA_2020	control		stool	48	adult	female	24.1	JPN	37104619	no	no	S00077	healthy
+S00078	StudyA_2020	control		stool	41	adult	male	26.0	ITA	33689704	no	no	S00078	healthy
+S00079	StudyA_2020	control		stool	54	adult	male	24.3	FRA	26112355	no	no	S00079	healthy
+S00080	StudyA_2020	control		stool	32	adult	male	16.0	USA	31902967	no	no	S00080	healthy
+S00081	StudyB_2021	CRC		stool	33	adult	female	21.4	CHN	20710532	no	no	S00081	CRC
+S00082	StudyB_2021	CRC		stool	71	adult	male	26.6	DEU	41419156	no	no	S00082	CRC
+S00083	StudyB_2021	CRC		stool	74	adult	female	26.0	JPN	17358443	no	no	S00083	CRC
+S00084	StudyB_2021	CRC		stool	28	adult	male	21.1	ITA	44375115	no	no	S00084	CRC
+S00085	StudyB_2021	CRC		stool	34	adult	female	25.6	FRA	19346389	no	no	S00085	CRC
+S00086	StudyB_2021	CRC		stool	31	adult	female	22.5	USA	36982355	no	no	S00086	CRC
+S00087	StudyB_2021	CRC		stool	35	adult	female	28.6	CHN	23747192	no	no	S00087	CRC
+S00088	StudyB_2021	CRC		stool	63	adult	male	29.5	DEU	35859395	no	no	S00088	CRC
+S00089	StudyB_2021	CRC		stool	48	adult	female	27.2	JPN	18033048	no	no	S00089	CRC
+S00090	StudyB_2021	CRC		stool	52	adult	male	25.6	ITA	44807450	no	no	S00090	CRC
+S00091	StudyB_2021	CRC		stool	51	adult	male	28.3	FRA	21569075	no	no	S00091	CRC
+S00092	StudyB_2021	CRC		stool	47	adult	male	23.6	USA	29298624	no	no	S00092	CRC
+S00093	StudyB_2021	CRC		stool	50	adult	female	23.7	CHN	34623837	no	no	S00093	CRC
+S00094	StudyB_2021	CRC		stool	69	adult	female	24.9	DEU	27764397	no	no	S00094	CRC
+S00095	StudyB_2021	CRC		stool	71	adult	male	30.4	JPN	27300661	no	no	S00095	CRC
+S00096	StudyB_2021	CRC		stool	32	adult	female	31.9	ITA	30179051	no	no	S00096	CRC
+S00097	StudyB_2021	CRC		stool	32	adult	female	30.6	FRA	39611549	no	no	S00097	CRC
+S00098	StudyB_2021	CRC		stool	45	adult	female	24.4	USA	37095596	no	no	S00098	CRC
+S00099	StudyB_2021	CRC		stool	72	adult	male	30.4	CHN	22760781	no	no	S00099	CRC
+S00100	StudyB_2021	CRC		stool	27	adult	female	24.4	DEU	42484820	no	no	S00100	CRC
+S00101	StudyB_2021	CRC		stool	29	adult	female	23.2	JPN	54301002	no	no	S00101	CRC
+S00102	StudyB_2021	CRC		stool	54	adult	female	19.2	ITA	26731832	no	no	S00102	CRC
+S00103	StudyB_2021	CRC		stool	41	adult	male	34.0	FRA	19910536	no	no	S00103	CRC
+S00104	StudyB_2021	CRC		stool	45	adult	female	25.4	USA	43751450	no	no	S00104	CRC
+S00105	StudyB_2021	CRC		stool	67	adult	female	27.3	CHN	57067709	no	no	S00105	CRC
+S00106	StudyB_2021	CRC		stool	58	adult	female	22.2	DEU	56095398	no	no	S00106	CRC
+S00107	StudyB_2021	CRC		stool	26	adult	male	26.9	JPN	48386341	no	no	S00107	CRC
+S00108	StudyB_2021	CRC		stool	74	adult	female	23.8	ITA	36283941	no	no	S00108	CRC
+S00109	StudyB_2021	CRC		stool	31	adult	male	28.1	FRA	31302703	no	no	S00109	CRC
+S00110	StudyB_2021	CRC		stool	58	adult	male	25.1	USA	22193673	no	no	S00110	CRC
+S00111	StudyB_2021	CRC		stool	45	adult	male	26.0	CHN	28078683	no	no	S00111	CRC
+S00112	StudyB_2021	CRC		stool	37	adult	female	23.5	DEU	27992196	no	no	S00112	CRC
+S00113	StudyB_2021	CRC		stool	47	adult	male	26.9	JPN	26434413	no	no	S00113	CRC
+S00114	StudyB_2021	CRC		stool	29	adult	male	20.0	ITA	50302277	no	no	S00114	CRC
+S00115	StudyB_2021	CRC		stool	61	adult	male	18.8	FRA	31231194	no	no	S00115	CRC
+S00116	StudyB_2021	control		stool	53	adult	female	17.3	USA	35971256	no	no	S00116	healthy
+S00117	StudyB_2021	control		stool	39	adult	female	19.3	CHN	21273991	no	no	S00117	healthy
+S00118	StudyB_2021	control		stool	56	adult	male	30.6	DEU	19050035	no	no	S00118	healthy
+S00119	StudyB_2021	control		stool	46	adult	female	28.0	JPN	46447016	no	no	S00119	healthy
+S00120	StudyB_2021	control		stool	26	adult	female	19.2	ITA	27679853	no	no	S00120	healthy
+S00121	StudyB_2021	control		stool	62	adult	female	28.5	FRA	34983846	no	no	S00121	healthy
+S00122	StudyB_2021	control		stool	53	adult	female	28.3	USA	57335337	no	no	S00122	healthy
+S00123	StudyB_2021	control		stool	65	adult	male	24.0	CHN	55939884	no	no	S00123	healthy
+S00124	StudyB_2021	control		stool	25	adult	female	26.6	DEU	18336048	no	no	S00124	healthy
+S00125	StudyB_2021	control		stool	26	adult	female	21.6	JPN	30772659	no	no	S00125	healthy
+S00126	StudyB_2021	control		stool	54	adult	female	22.0	ITA	31172306	no	no	S00126	healthy
+S00127	StudyB_2021	control		stool	51	adult	female	29.2	FRA	16211691	no	no	S00127	healthy
+S00128	StudyB_2021	control		stool	25	adult	male	25.0	USA	44710884	no	no	S00128	healthy
+S00129	StudyB_2021	control		stool	28	adult	male	26.1	CHN	19148744	no	no	S00129	healthy
+S00130	StudyB_2021	control		stool	25	adult	male	19.0	DEU	40017003	no	no	S00130	healthy
+S00131	StudyB_2021	control		stool	53	adult	male	29.5	JPN	20826375	no	no	S00131	healthy
+S00132	StudyB_2021	control		stool	26	adult	female	21.8	ITA	58950000	no	no	S00132	healthy
+S00133	StudyB_2021	control		stool	54	adult	male	21.7	FRA	24307023	no	no	S00133	healthy
+S00134	StudyB_2021	control		stool	34	adult	female	27.2	USA	62670067	no	no	S00134	healthy
+S00135	StudyB_2021	control		stool	62	adult	female	24.0	CHN	52149344	no	no	S00135	healthy
+S00136	StudyB_2021	control		stool	25	adult	male	24.4	DEU	52117932	no	no	S00136	healthy
+S00137	StudyB_2021	control		stool	41	adult	female	25.9	JPN	30857250	no	no	S00137	healthy
+S00138	StudyB_2021	control		stool	34	adult	male	26.3	ITA	40549840	no	no	S00138	healthy
+S00139	StudyB_2021	control		stool	69	adult	female	31.4	FRA	31757414	no	no	S00139	healthy
+S00140	StudyB_2021	control		stool	70	adult	male	18.9	USA	17765191	no	no	S00140	healthy
+S00141	StudyB_2021	control		stool	37	adult	male	29.8	CHN	54200071	no	no	S00141	healthy
+S00142	StudyB_2021	control		stool	36	adult	female	20.0	DEU	49372727	no	no	S00142	healthy
+S00143	StudyB_2021	control		stool	59	adult	female	14.0	JPN	47017142	no	no	S00143	healthy
+S00144	StudyB_2021	control		stool	72	adult	male	22.7	ITA	27031406	no	no	S00144	healthy
+S00145	StudyB_2021	control		stool	68	adult	male	23.8	FRA	17485481	no	no	S00145	healthy
+S00146	StudyB_2021	control		stool	25	adult	male	26.9	USA	31431719	no	no	S00146	healthy
+S00147	StudyB_2021	control		stool	73	adult	male	24.1	CHN	29868003	no	no	S00147	healthy
+S00148	StudyB_2021	control		stool	26	adult	female	28.3	DEU	20184055	no	no	S00148	healthy
+S00149	StudyB_2021	control		stool	49	adult	female	25.2	JPN	37944057	no	no	S00149	healthy
+S00150	StudyB_2021	control		stool	70	adult	male	27.2	ITA	46337562	no	no	S00150	healthy
+S00151	StudyC_2019	CRC		stool	63	adult	female	26.1	FRA	55194904	no	no	S00151	CRC
+S00152	StudyC_2019	CRC		stool	29	adult	male	18.2	USA	26467399	no	no	S00152	CRC
+S00153	StudyC_2019	CRC		stool	47	adult	female	31.0	CHN	26466916	no	no	S00153	CRC
+S00154	StudyC_2019	CRC		stool	28	adult	male	30.1	DEU	17731218	no	no	S00154	CRC
+S00155	StudyC_2019	CRC		stool	53	adult	female	29.3	JPN	40511251	no	no	S00155	CRC
+S00156	StudyC_2019	CRC		stool	34	adult	male	28.0	ITA	37527448	no	no	S00156	CRC
+S00157	StudyC_2019	CRC		stool	52	adult	male	22.9	FRA	49697292	no	no	S00157	CRC
+S00158	StudyC_2019	CRC		stool	60	adult	male	33.4	USA	22967591	no	no	S00158	CRC
+S00159	StudyC_2019	CRC		stool	52	adult	male	24.6	CHN	30129999	no	no	S00159	CRC
+S00160	StudyC_2019	CRC		stool	40	adult	male	24.0	DEU	27730864	no	no	S00160	CRC
+S00161	StudyC_2019	CRC		stool	39	adult	female	23.4	JPN	30782640	no	no	S00161	CRC
+S00162	StudyC_2019	CRC		stool	33	adult	female	29.6	ITA	34035525	no	no	S00162	CRC
+S00163	StudyC_2019	CRC		stool	28	adult	male	27.5	FRA	15974944	no	no	S00163	CRC
+S00164	StudyC_2019	CRC		stool	27	adult	male	17.7	USA	20230414	no	no	S00164	CRC
+S00165	StudyC_2019	CRC		stool	66	adult	male	24.2	CHN	49632198	no	no	S00165	CRC
+S00166	StudyC_2019	CRC		stool	31	adult	male	24.2	DEU	22601350	no	no	S00166	CRC
+S00167	StudyC_2019	CRC		stool	54	adult	female	22.7	JPN	35831756	no	no	S00167	CRC
+S00168	StudyC_2019	CRC		stool	68	adult	female	19.4	ITA	41409283	no	no	S00168	CRC
+S00169	StudyC_2019	CRC		stool	57	adult	male	26.5	FRA	36729525	no	no	S00169	CRC
+S00170	StudyC_2019	CRC		stool	71	adult	male	28.2	USA	27095126	no	no	S00170	CRC
+S00171	StudyC_2019	CRC		stool	66	adult	female	21.0	CHN	21787756	no	no	S00171	CRC
+S00172	StudyC_2019	CRC		stool	30	adult	male	20.1	DEU	15277568	no	no	S00172	CRC
+S00173	StudyC_2019	CRC		stool	52	adult	male	28.6	JPN	49717669	no	no	S00173	CRC
+S00174	StudyC_2019	CRC		stool	74	adult	male	25.3	ITA	59856991	no	no	S00174	CRC
+S00175	StudyC_2019	CRC		stool	74	adult	female	25.4	FRA	48492717	no	no	S00175	CRC
+S00176	StudyC_2019	CRC		stool	36	adult	male	33.6	USA	19521324	no	no	S00176	CRC
+S00177	StudyC_2019	CRC		stool	36	adult	female	33.3	CHN	47876246	no	no	S00177	CRC
+S00178	StudyC_2019	CRC		stool	50	adult	male	23.5	DEU	32523987	no	no	S00178	CRC
+S00179	StudyC_2019	CRC		stool	35	adult	female	24.5	JPN	31339680	no	no	S00179	CRC
+S00180	StudyC_2019	CRC		stool	38	adult	male	29.0	ITA	41010678	no	no	S00180	CRC
+S00181	StudyC_2019	control		stool	44	adult	male	29.3	FRA	33636013	no	no	S00181	healthy
+S00182	StudyC_2019	control		stool	61	adult	female	29.3	USA	65320307	no	no	S00182	healthy
+S00183	StudyC_2019	control		stool	71	adult	male	19.8	CHN	57296885	no	no	S00183	healthy
+S00184	StudyC_2019	control		stool	48	adult	female	25.6	DEU	29304013	no	no	S00184	healthy
+S00185	StudyC_2019	control		stool	32	adult	female	23.8	JPN	45950594	no	no	S00185	healthy
+S00186	StudyC_2019	control		stool	66	adult	male	24.8	ITA	28621376	no	no	S00186	healthy
+S00187	StudyC_2019	control		stool	43	adult	male	26.7	FRA	37607760	no	no	S00187	healthy
+S00188	StudyC_2019	control		stool	65	adult	male	26.7	USA	41090063	no	no	S00188	healthy
+S00189	StudyC_2019	control		stool	30	adult	male	13.9	CHN	52436822	no	no	S00189	healthy
+S00190	StudyC_2019	control		stool	67	adult	female	24.0	DEU	42899106	no	no	S00190	healthy
+S00191	StudyC_2019	control		stool	63	adult	female	22.7	JPN	46112330	no	no	S00191	healthy
+S00192	StudyC_2019	control		stool	64	adult	male	24.0	ITA	25301650	no	no	S00192	healthy
+S00193	StudyC_2019	control		stool	30	adult	female	22.4	FRA	25594997	no	no	S00193	healthy
+S00194	StudyC_2019	control		stool	73	adult	male	19.9	USA	40090888	no	no	S00194	healthy
+S00195	StudyC_2019	control		stool	35	adult	female	26.1	CHN	29191619	no	no	S00195	healthy
+S00196	StudyC_2019	control		stool	25	adult	male	25.5	DEU	36200249	no	no	S00196	healthy
+S00197	StudyC_2019	control		stool	32	adult	female	25.4	JPN	36261786	no	no	S00197	healthy
+S00198	StudyC_2019	control		stool	57	adult	male	31.1	ITA	37075164	no	no	S00198	healthy
+S00199	StudyC_2019	control		stool	38	adult	male	18.8	FRA	64400983	no	no	S00199	healthy
+S00200	StudyC_2019	control		stool	25	adult	female	19.7	USA	46801173	no	no	S00200	healthy
+S00201	StudyC_2019	control		stool	30	adult	female	16.3	CHN	48951818	no	no	S00201	healthy
+S00202	StudyC_2019	control		stool	72	adult	female	27.2	DEU	52358541	no	no	S00202	healthy
+S00203	StudyC_2019	control		stool	59	adult	female	27.2	JPN	67534892	no	no	S00203	healthy
+S00204	StudyC_2019	control		stool	36	adult	male	19.4	ITA	22606246	no	no	S00204	healthy
+S00205	StudyC_2019	control		stool	52	adult	male	22.9	FRA	17626187	no	no	S00205	healthy
+S00206	StudyC_2019	control		stool	48	adult	male	27.0	USA	55208506	no	no	S00206	healthy
+S00207	StudyC_2019	control		stool	70	adult	male	30.6	CHN	40592520	no	no	S00207	healthy
+S00208	StudyC_2019	control		stool	38	adult	female	26.2	DEU	29933534	no	no	S00208	healthy
+S00209	StudyC_2019	control		stool	46	adult	male	19.0	JPN	25426288	no	no	S00209	healthy
+S00210	StudyC_2019	control		stool	25	adult	female	23.4	ITA	72111575	no	no	S00210	healthy
+S00211	StudyD_2020	IBD	UC	stool	61	adult	male	26.3	FRA	29183674	no	no	S00211	IBD
+S00212	StudyD_2020	IBD	UC	stool	74	adult	female	23.5	USA	46917446	no	no	S00212	IBD
+S00213	StudyD_2020	IBD	UC	stool	51	adult	male	24.7	CHN	50249026	no	no	S00213	IBD
+S00214	StudyD_2020	IBD	UC	stool	68	adult	female	27.1	DEU	58839951	no	no	S00214	IBD
+S00215	StudyD_2020	IBD	UC	stool	39	adult	male	23.9	JPN	34334215	no	no	S00215	IBD
+S00216	StudyD_2020	IBD	UC	stool	43	adult	female	31.3	ITA	41556905	no	no	S00216	IBD
+S00217	StudyD_2020	IBD	UC	stool	27	adult	female	29.0	FRA	28497049	no	no	S00217	IBD
+S00218	StudyD_2020	IBD	CD	stool	60	adult	male	31.8	USA	74799175	no	no	S00218	IBD
+S00219	StudyD_2020	IBD	CD	stool	32	adult	female	26.9	CHN	57731704	no	no	S00219	IBD
+S00220	StudyD_2020	IBD	CD	stool	48	adult	female	18.3	DEU	41123869	no	no	S00220	IBD
+S00221	StudyD_2020	IBD	CD	stool	43	adult	male	18.9	JPN	26446515	no	no	S00221	IBD
+S00222	StudyD_2020	IBD	UC	stool	61	adult	male	24.8	ITA	36047046	no	no	S00222	IBD
+S00223	StudyD_2020	IBD	UC	stool	67	adult	male	30.5	FRA	24353089	no	no	S00223	IBD
+S00224	StudyD_2020	IBD	CD	stool	55	adult	male	22.3	USA	20190790	no	no	S00224	IBD
+S00225	StudyD_2020	IBD	CD	stool	46	adult	female	25.2	CHN	24130124	no	no	S00225	IBD
+S00226	StudyD_2020	IBD	UC	stool	26	adult	female	21.7	DEU	48280714	no	no	S00226	IBD
+S00227	StudyD_2020	IBD	CD	stool	73	adult	male	24.5	JPN	64503372	no	no	S00227	IBD
+S00228	StudyD_2020	IBD	UC	stool	63	adult	female	14.5	ITA	46883231	no	no	S00228	IBD
+S00229	StudyD_2020	IBD	CD	stool	48	adult	male	27.4	FRA	22956089	no	no	S00229	IBD
+S00230	StudyD_2020	IBD	CD	stool	43	adult	female	32.0	USA	39262162	no	no	S00230	IBD
+S00231	StudyD_2020	IBD	UC	stool	39	adult	female	22.6	CHN	43844068	no	no	S00231	IBD
+S00232	StudyD_2020	IBD	CD	stool	55	adult	male	29.2	DEU	25780759	no	no	S00232	IBD
+S00233	StudyD_2020	IBD	CD	stool	49	adult	female	30.3	JPN	32117353	no	no	S00233	IBD
+S00234	StudyD_2020	IBD	CD	stool	64	adult	male	24.2	ITA	34101420	no	no	S00234	IBD
+S00235	StudyD_2020	IBD	UC	stool	31	adult	male	22.8	FRA	34032215	no	no	S00235	IBD
+S00236	StudyD_2020	IBD	CD	stool	40	adult	female	29.3	USA	31372945	no	no	S00236	IBD
+S00237	StudyD_2020	IBD	UC	stool	59	adult	male	29.4	CHN	15376199	no	no	S00237	IBD
+S00238	StudyD_2020	IBD	CD	stool	58	adult	male	20.1	DEU	43059546	no	no	S00238	IBD
+S00239	StudyD_2020	IBD	CD	stool	59	adult	female	25.1	JPN	22376722	no	no	S00239	IBD
+S00240	StudyD_2020	IBD	UC	stool	64	adult	female	30.9	ITA	21727290	no	no	S00240	IBD
+S00241	StudyD_2020	control		stool	49	adult	female	25.6	FRA	22428586	no	no	S00241	healthy
+S00242	StudyD_2020	control		stool	72	adult	female	27.6	USA	23155139	no	no	S00242	healthy
+S00243	StudyD_2020	control		stool	40	adult	male	32.3	CHN	69271740	no	no	S00243	healthy
+S00244	StudyD_2020	control		stool	73	adult	female	27.0	DEU	24794153	no	no	S00244	healthy
+S00245	StudyD_2020	control		stool	36	adult	female	27.8	JPN	22451268	no	no	S00245	healthy
+S00246	StudyD_2020	control		stool	35	adult	female	15.7	ITA	32343732	no	no	S00246	healthy
+S00247	StudyD_2020	control		stool	31	adult	male	26.7	FRA	24930389	no	no	S00247	healthy
+S00248	StudyD_2020	control		stool	53	adult	male	25.1	USA	27003033	no	no	S00248	healthy
+S00249	StudyD_2020	control		stool	52	adult	female	29.6	CHN	37716502	no	no	S00249	healthy
+S00250	StudyD_2020	control		stool	30	adult	male	28.1	DEU	20921117	no	no	S00250	healthy
+S00251	StudyD_2020	control		stool	59	adult	male	24.0	JPN	29085204	no	no	S00251	healthy
+S00252	StudyD_2020	control		stool	41	adult	female	30.2	ITA	57648781	no	no	S00252	healthy
+S00253	StudyD_2020	control		stool	45	adult	female	28.7	FRA	46557400	no	no	S00253	healthy
+S00254	StudyD_2020	control		stool	38	adult	male	20.1	USA	13816525	no	no	S00254	healthy
+S00255	StudyD_2020	control		stool	32	adult	male	24.5	CHN	37942708	no	no	S00255	healthy
+S00256	StudyD_2020	control		stool	52	adult	male	19.4	DEU	60002682	no	no	S00256	healthy
+S00257	StudyD_2020	control		stool	44	adult	female	24.2	JPN	44915391	no	no	S00257	healthy
+S00258	StudyD_2020	control		stool	62	adult	female	21.1	ITA	26929320	no	no	S00258	healthy
+S00259	StudyD_2020	control		stool	73	adult	male	28.0	FRA	45630913	no	no	S00259	healthy
+S00260	StudyD_2020	control		stool	28	adult	female	28.2	USA	35694190	no	no	S00260	healthy
+S00261	StudyD_2020	control		stool	55	adult	female	23.0	CHN	25539354	no	no	S00261	healthy
+S00262	StudyD_2020	control		stool	71	adult	female	31.6	DEU	25808775	no	no	S00262	healthy
+S00263	StudyD_2020	control		stool	47	adult	female	24.5	JPN	42180551	no	no	S00263	healthy
+S00264	StudyD_2020	control		stool	40	adult	male	20.6	ITA	19929028	no	no	S00264	healthy
+S00265	StudyD_2020	control		stool	53	adult	male	29.9	FRA	25616045	no	no	S00265	healthy
+S00266	StudyD_2020	control		stool	74	adult	female	26.1	USA	47390320	no	no	S00266	healthy
+S00267	StudyD_2020	control		stool	45	adult	female	22.1	CHN	22826516	no	no	S00267	healthy
+S00268	StudyD_2020	control		stool	70	adult	male	20.6	DEU	23081635	no	no	S00268	healthy
+S00269	StudyD_2020	control		stool	38	adult	female	29.6	JPN	32715193	no	no	S00269	healthy
+S00270	StudyD_2020	control		stool	42	adult	female	18.9	ITA	49830224	no	no	S00270	healthy
+S00271	StudyE_2022	IBD	UC	stool	31	adult	female	28.4	FRA	45289177	no	no	S00271	IBD
+S00272	StudyE_2022	IBD	UC	stool	70	adult	male	21.8	USA	57807228	no	no	S00272	IBD
+S00273	StudyE_2022	IBD	UC	stool	60	adult	female	24.8	CHN	38284056	no	no	S00273	IBD
+S00274	StudyE_2022	IBD	UC	stool	65	adult	male	26.7	DEU	35672129	no	no	S00274	IBD
+S00275	StudyE_2022	IBD	UC	stool	50	adult	female	27.3	JPN	34635439	no	no	S00275	IBD
+S00276	StudyE_2022	IBD	UC	stool	56	adult	male	22.0	ITA	28145326	no	no	S00276	IBD
+S00277	StudyE_2022	IBD	UC	stool	71	adult	female	28.3	FRA	18282662	no	no	S00277	IBD
+S00278	StudyE_2022	IBD	UC	stool	31	adult	female	29.5	USA	51747946	no	no	S00278	IBD
+S00279	StudyE_2022	IBD	CD	stool	32	adult	female	22.6	CHN	20504111	no	no	S00279	IBD
+S00280	StudyE_2022	IBD	UC	stool	47	adult	male	27.1	DEU	30943204	no	no	S00280	IBD
+S00281	StudyE_2022	IBD	CD	stool	44	adult	female	19.9	JPN	36199610	no	no	S00281	IBD
+S00282	StudyE_2022	IBD	CD	stool	37	adult	male	22.9	ITA	29739300	no	no	S00282	IBD
+S00283	StudyE_2022	IBD	UC	stool	39	adult	female	22.3	FRA	27189851	no	no	S00283	IBD
+S00284	StudyE_2022	IBD	CD	stool	52	adult	male	24.5	USA	26255606	no	no	S00284	IBD
+S00285	StudyE_2022	IBD	UC	stool	73	adult	female	24.5	CHN	65036996	no	no	S00285	IBD
+S00286	StudyE_2022	IBD	UC	stool	39	adult	male	27.6	DEU	35710536	no	no	S00286	IBD
+S00287	StudyE_2022	IBD	CD	stool	69	adult	female	22.2	JPN	20107456	no	no	S00287	IBD
+S00288	StudyE_2022	IBD	CD	stool	50	adult	female	19.6	ITA	33401295	no	no	S00288	IBD
+S00289	StudyE_2022	IBD	CD	stool	48	adult	male	17.1	FRA	20325706	no	no	S00289	IBD
+S00290	StudyE_2022	IBD	CD	stool	71	adult	female	22.9	USA	49481637	no	no	S00290	IBD
+S00291	StudyE_2022	IBD	CD	stool	35	adult	female	27.8	CHN	38367976	no	no	S00291	IBD
+S00292	StudyE_2022	IBD	UC	stool	37	adult	female	23.5	DEU	36992348	no	no	S00292	IBD
+S00293	StudyE_2022	IBD	UC	stool	50	adult	male	23.4	JPN	32730561	no	no	S00293	IBD
+S00294	StudyE_2022	IBD	CD	stool	63	adult	male	25.0	ITA	36935979	no	no	S00294	IBD
+S00295	StudyE_2022	IBD	UC	stool	33	adult	female	23.1	FRA	24081505	no	no	S00295	IBD
+S00296	StudyE_2022	control		stool	25	adult	male	25.4	USA	30334278	no	no	S00296	healthy
+S00297	StudyE_2022	control		stool	39	adult	female	26.0	CHN	22921351	no	no	S00297	healthy
+S00298	StudyE_2022	control		stool	54	adult	male	16.4	DEU	40134023	no	no	S00298	healthy
+S00299	StudyE_2022	control		stool	49	adult	female	31.1	JPN	43344115	no	no	S00299	healthy
+S00300	StudyE_2022	control		stool	46	adult	male	21.8	ITA	31027831	no	no	S00300	healthy
+S00301	StudyE_2022	control		stool	33	adult	male	27.2	FRA	27873433	no	no	S00301	healthy
+S00302	StudyE_2022	control		stool	71	adult	female	23.1	USA	46990336	no	no	S00302	healthy
+S00303	StudyE_2022	control		stool	51	adult	female	16.4	CHN	33167540	no	no	S00303	healthy
+S00304	StudyE_2022	control		stool	59	adult	male	18.8	DEU	26216948	no	no	S00304	healthy
+S00305	StudyE_2022	control		stool	59	adult	male	27.7	JPN	35390259	no	no	S00305	healthy
+S00306	StudyE_2022	control		stool	59	adult	male	22.8	ITA	19142279	no	no	S00306	healthy
+S00307	StudyE_2022	control		stool	47	adult	male	20.7	FRA	26819604	no	no	S00307	healthy
+S00308	StudyE_2022	control		stool	61	adult	male	20.9	USA	71257141	no	no	S00308	healthy
+S00309	StudyE_2022	control		stool	73	adult	female	19.2	CHN	21538767	no	no	S00309	healthy
+S00310	StudyE_2022	control		stool	58	adult	female	22.0	DEU	26332043	no	no	S00310	healthy
+S00311	StudyE_2022	control		stool	63	adult	female	25.7	JPN	40219902	no	no	S00311	healthy
+S00312	StudyE_2022	control		stool	34	adult	male	21.1	ITA	34905190	no	no	S00312	healthy
+S00313	StudyE_2022	control		stool	70	adult	male	30.8	FRA	29675753	no	no	S00313	healthy
+S00314	StudyE_2022	control		stool	43	adult	female	28.3	USA	21803447	no	no	S00314	healthy
+S00315	StudyE_2022	control		stool	32	adult	male	26.8	CHN	23690297	no	no	S00315	healthy
+S00316	StudyE_2022	control		stool	39	adult	male	24.0	DEU	34661383	no	no	S00316	healthy
+S00317	StudyE_2022	control		stool	61	adult	male	33.5	JPN	19832002	no	no	S00317	healthy
+S00318	StudyE_2022	control		stool	27	adult	female	20.5	ITA	37196116	no	no	S00318	healthy
+S00319	StudyE_2022	control		stool	30	adult	male	23.9	FRA	54989512	no	no	S00319	healthy
+S00320	StudyE_2022	control		stool	59	adult	male	25.2	USA	16651796	no	no	S00320	healthy
+S00321	StudyF_2021	IBD	UC	stool	74	adult	female	25.7	CHN	29507150	no	no	S00321	IBD
+S00322	StudyF_2021	IBD	UC	stool	41	adult	female	25.2	DEU	30040072	no	no	S00322	IBD
+S00323	StudyF_2021	IBD	UC	stool	52	adult	female	30.9	JPN	17882601	no	no	S00323	IBD
+S00324	StudyF_2021	IBD	CD	stool	36	adult	male	27.5	ITA	46767159	no	no	S00324	IBD
+S00325	StudyF_2021	IBD	UC	stool	45	adult	female	30.5	FRA	32787662	no	no	S00325	IBD
+S00326	StudyF_2021	IBD	CD	stool	41	adult	female	31.0	USA	29334417	no	no	S00326	IBD
+S00327	StudyF_2021	IBD	CD	stool	31	adult	male	26.9	CHN	33874935	no	no	S00327	IBD
+S00328	StudyF_2021	IBD	CD	stool	72	adult	female	28.2	DEU	26445136	no	no	S00328	IBD
+S00329	StudyF_2021	IBD	CD	stool	28	adult	female	29.1	JPN	28845646	no	no	S00329	IBD
+S00330	StudyF_2021	IBD	UC	stool	42	adult	male	32.7	ITA	65757333	no	no	S00330	IBD
+S00331	StudyF_2021	IBD	CD	stool	56	adult	female	26.5	FRA	32597212	no	no	S00331	IBD
+S00332	StudyF_2021	IBD	CD	stool	27	adult	female	30.2	USA	48907560	no	no	S00332	IBD
+S00333	StudyF_2021	IBD	CD	stool	38	adult	male	23.3	CHN	28778239	no	no	S00333	IBD
+S00334	StudyF_2021	IBD	UC	stool	48	adult	female	24.4	DEU	49245869	no	no	S00334	IBD
+S00335	StudyF_2021	IBD	UC	stool	34	adult	male	29.8	JPN	26923025	no	no	S00335	IBD
+S00336	StudyF_2021	IBD	UC	stool	44	adult	female	24.1	ITA	21508614	no	no	S00336	IBD
+S00337	StudyF_2021	IBD	CD	stool	30	adult	male	26.4	FRA	51174781	no	no	S00337	IBD
+S00338	StudyF_2021	IBD	UC	stool	27	adult	male	24.4	USA	18660686	no	no	S00338	IBD
+S00339	StudyF_2021	IBD	CD	stool	39	adult	male	20.4	CHN	42470452	no	no	S00339	IBD
+S00340	StudyF_2021	IBD	CD	stool	29	adult	male	25.2	DEU	57472030	no	no	S00340	IBD
+S00341	StudyF_2021	IBD	CD	stool	69	adult	female	29.7	JPN	77614547	no	no	S00341	IBD
+S00342	StudyF_2021	IBD	UC	stool	37	adult	male	23.8	ITA	18324833	no	no	S00342	IBD
+S00343	StudyF_2021	IBD	UC	stool	42	adult	female	23.3	FRA	53022974	no	no	S00343	IBD
+S00344	StudyF_2021	IBD	UC	stool	45	adult	male	21.9	USA	39885414	no	no	S00344	IBD
+S00345	StudyF_2021	IBD	CD	stool	33	adult	male	23.3	CHN	54951157	no	no	S00345	IBD
+S00346	StudyF_2021	control		stool	52	adult	male	21.6	DEU	24475400	no	no	S00346	healthy
+S00347	StudyF_2021	control		stool	35	adult	male	29.9	JPN	25343950	no	no	S00347	healthy
+S00348	StudyF_2021	control		stool	59	adult	male	20.9	ITA	12080662	no	no	S00348	healthy
+S00349	StudyF_2021	control		stool	71	adult	male	28.0	FRA	33381410	no	no	S00349	healthy
+S00350	StudyF_2021	control		stool	37	adult	male	23.1	USA	46389868	no	no	S00350	healthy
+S00351	StudyF_2021	control		stool	50	adult	female	23.6	CHN	38398673	no	no	S00351	healthy
+S00352	StudyF_2021	control		stool	46	adult	female	28.6	DEU	29804516	no	no	S00352	healthy
+S00353	StudyF_2021	control		stool	33	adult	male	25.5	JPN	56830496	no	no	S00353	healthy
+S00354	StudyF_2021	control		stool	52	adult	male	21.4	ITA	86679366	no	no	S00354	healthy
+S00355	StudyF_2021	control		stool	70	adult	male	22.6	FRA	31985864	no	no	S00355	healthy
+S00356	StudyF_2021	control		stool	27	adult	female	26.5	USA	26176516	no	no	S00356	healthy
+S00357	StudyF_2021	control		stool	48	adult	female	21.5	CHN	21286425	no	no	S00357	healthy
+S00358	StudyF_2021	control		stool	59	adult	male	21.5	DEU	75330981	no	no	S00358	healthy
+S00359	StudyF_2021	control		stool	41	adult	female	28.2	JPN	47847687	no	no	S00359	healthy
+S00360	StudyF_2021	control		stool	40	adult	female	29.5	ITA	30545191	no	no	S00360	healthy
+S00361	StudyF_2021	control		stool	52	adult	female	23.2	FRA	30937148	no	no	S00361	healthy
+S00362	StudyF_2021	control		stool	65	adult	female	31.7	USA	20543506	no	no	S00362	healthy
+S00363	StudyF_2021	control		stool	42	adult	male	18.7	CHN	27636124	no	no	S00363	healthy
+S00364	StudyF_2021	control		stool	43	adult	male	28.5	DEU	31895547	no	no	S00364	healthy
+S00365	StudyF_2021	control		stool	33	adult	female	22.1	JPN	39328574	no	no	S00365	healthy
+S00366	StudyF_2021	control		stool	37	adult	male	16.3	ITA	30866053	no	no	S00366	healthy
+S00367	StudyF_2021	control		stool	33	adult	male	24.7	FRA	35252136	no	no	S00367	healthy
+S00368	StudyF_2021	control		stool	31	adult	female	23.1	USA	22820812	no	no	S00368	healthy
+S00369	StudyF_2021	control		stool	50	adult	male	23.2	CHN	30259123	no	no	S00369	healthy
+S00370	StudyF_2021	control		stool	57	adult	male	26.2	DEU	23948477	no	no	S00370	healthy
+S00371	StudyG_2020	T2D		stool	31	adult	female	27.8	JPN	48024897	no	no	S00371	T2D
+S00372	StudyG_2020	T2D		stool	39	adult	male	33.6	ITA	47333027	no	no	S00372	T2D
+S00373	StudyG_2020	T2D		stool	55	adult	male	31.8	FRA	33096378	no	no	S00373	T2D
+S00374	StudyG_2020	T2D		stool	54	adult	female	24.4	USA	19740232	no	no	S00374	T2D
+S00375	StudyG_2020	T2D		stool	30	adult	female	30.1	CHN	17548375	no	no	S00375	T2D
+S00376	StudyG_2020	T2D		stool	72	adult	female	28.1	DEU	38815273	no	no	S00376	T2D
+S00377	StudyG_2020	T2D		stool	54	adult	female	27.6	JPN	33768128	no	no	S00377	T2D
+S00378	StudyG_2020	T2D		stool	49	adult	female	23.1	ITA	44815519	no	no	S00378	T2D
+S00379	StudyG_2020	T2D		stool	42	adult	male	28.7	FRA	29746470	no	no	S00379	T2D
+S00380	StudyG_2020	T2D		stool	32	adult	male	21.7	USA	48629641	no	no	S00380	T2D
+S00381	StudyG_2020	T2D		stool	38	adult	female	28.1	CHN	23187286	no	no	S00381	T2D
+S00382	StudyG_2020	T2D		stool	62	adult	male	19.9	DEU	28987122	no	no	S00382	T2D
+S00383	StudyG_2020	T2D		stool	73	adult	female	24.1	JPN	35631230	no	no	S00383	T2D
+S00384	StudyG_2020	T2D		stool	45	adult	female	28.2	ITA	67260368	no	no	S00384	T2D
+S00385	StudyG_2020	T2D		stool	57	adult	male	25.6	FRA	37069485	no	no	S00385	T2D
+S00386	StudyG_2020	T2D		stool	62	adult	male	27.9	USA	28713257	no	no	S00386	T2D
+S00387	StudyG_2020	T2D		stool	45	adult	male	24.9	CHN	31710443	no	no	S00387	T2D
+S00388	StudyG_2020	T2D		stool	31	adult	female	18.6	DEU	42070805	no	no	S00388	T2D
+S00389	StudyG_2020	T2D		stool	25	adult	female	24.0	JPN	24195102	no	no	S00389	T2D
+S00390	StudyG_2020	T2D		stool	37	adult	male	29.0	ITA	28366737	no	no	S00390	T2D
+S00391	StudyG_2020	T2D		stool	40	adult	female	25.8	FRA	34323694	no	no	S00391	T2D
+S00392	StudyG_2020	T2D		stool	51	adult	male	16.8	USA	44937007	no	no	S00392	T2D
+S00393	StudyG_2020	T2D		stool	42	adult	female	30.6	CHN	39442236	no	no	S00393	T2D
+S00394	StudyG_2020	T2D		stool	28	adult	female	27.1	DEU	22770720	no	no	S00394	T2D
+S00395	StudyG_2020	T2D		stool	26	adult	male	19.4	JPN	32335597	no	no	S00395	T2D
+S00396	StudyG_2020	T2D		stool	33	adult	female	21.3	ITA	42988185	no	no	S00396	T2D
+S00397	StudyG_2020	T2D		stool	28	adult	female	16.3	FRA	18135672	no	no	S00397	T2D
+S00398	StudyG_2020	T2D		stool	53	adult	male	31.4	USA	27081775	no	no	S00398	T2D
+S00399	StudyG_2020	T2D		stool	40	adult	female	23.1	CHN	31531017	no	no	S00399	T2D
+S00400	StudyG_2020	T2D		stool	55	adult	female	18.1	DEU	28339460	no	no	S00400	T2D
+S00401	StudyG_2020	control		stool	36	adult	female	22.0	JPN	31327781	no	no	S00401	healthy
+S00402	StudyG_2020	control		stool	74	adult	male	25.3	ITA	25539798	no	no	S00402	healthy
+S00403	StudyG_2020	control		stool	34	adult	male	24.7	FRA	36349445	no	no	S00403	healthy
+S00404	StudyG_2020	control		stool	60	adult	female	17.6	USA	42819776	no	no	S00404	healthy
+S00405	StudyG_2020	control		stool	71	adult	female	25.8	CHN	34046267	no	no	S00405	healthy
+S00406	StudyG_2020	control		stool	46	adult	female	18.7	DEU	29038452	no	no	S00406	healthy
+S00407	StudyG_2020	control		stool	74	adult	female	20.7	JPN	28960681	no	no	S00407	healthy
+S00408	StudyG_2020	control		stool	39	adult	male	27.9	ITA	29565041	no	no	S00408	healthy
+S00409	StudyG_2020	control		stool	51	adult	female	28.8	FRA	46939124	no	no	S00409	healthy
+S00410	StudyG_2020	control		stool	40	adult	female	15.6	USA	62785074	no	no	S00410	healthy
+S00411	StudyG_2020	control		stool	57	adult	male	28.0	CHN	36533636	no	no	S00411	healthy
+S00412	StudyG_2020	control		stool	52	adult	female	22.6	DEU	46375851	no	no	S00412	healthy
+S00413	StudyG_2020	control		stool	51	adult	female	24.5	JPN	48702112	no	no	S00413	healthy
+S00414	StudyG_2020	control		stool	38	adult	female	30.1	ITA	18796846	no	no	S00414	healthy
+S00415	StudyG_2020	control		stool	38	adult	female	24.3	FRA	41675727	no	no	S00415	healthy
+S00416	StudyG_2020	control		stool	32	adult	female	22.2	USA	22394008	no	no	S00416	healthy
+S00417	StudyG_2020	control		stool	71	adult	male	24.9	CHN	27484623	no	no	S00417	healthy
+S00418	StudyG_2020	control		stool	67	adult	female	24.4	DEU	30564980	no	no	S00418	healthy
+S00419	StudyG_2020	control		stool	47	adult	male	30.5	JPN	17928915	no	no	S00419	healthy
+S00420	StudyG_2020	control		stool	65	adult	female	30.0	ITA	48282905	no	no	S00420	healthy
+S00421	StudyG_2020	control		stool	63	adult	female	26.7	FRA	56375535	no	no	S00421	healthy
+S00422	StudyG_2020	control		stool	26	adult	male	24.0	USA	23535471	no	no	S00422	healthy
+S00423	StudyG_2020	control		stool	29	adult	female	26.1	CHN	37882171	no	no	S00423	healthy
+S00424	StudyG_2020	control		stool	42	adult	male	20.3	DEU	41384523	no	no	S00424	healthy
+S00425	StudyG_2020	control		stool	35	adult	male	21.8	JPN	48503542	no	no	S00425	healthy
+S00426	StudyG_2020	control		stool	35	adult	male	29.1	ITA	23085839	no	no	S00426	healthy
+S00427	StudyG_2020	control		stool	62	adult	male	17.5	FRA	28893637	no	no	S00427	healthy
+S00428	StudyG_2020	control		stool	44	adult	female	25.5	USA	29231499	no	no	S00428	healthy
+S00429	StudyG_2020	control		stool	49	adult	male	33.9	CHN	16086393	no	no	S00429	healthy
+S00430	StudyG_2020	control		stool	42	adult	male	22.4	DEU	29253320	no	no	S00430	healthy
+S00431	StudyH_2018	T2D		stool	66	adult	male	19.6	JPN	31270193	no	no	S00431	T2D
+S00432	StudyH_2018	T2D		stool	28	adult	female	24.7	ITA	27175329	no	no	S00432	T2D
+S00433	StudyH_2018	T2D		stool	25	adult	female	31.4	FRA	48007354	no	no	S00433	T2D
+S00434	StudyH_2018	T2D		stool	42	adult	male	28.7	USA	33471605	no	no	S00434	T2D
+S00435	StudyH_2018	T2D		stool	68	adult	female	28.0	CHN	28675901	no	no	S00435	T2D
+S00436	StudyH_2018	T2D		stool	30	adult	female	22.4	DEU	29053849	no	no	S00436	T2D
+S00437	StudyH_2018	T2D		stool	26	adult	female	31.0	JPN	39384302	no	no	S00437	T2D
+S00438	StudyH_2018	T2D		stool	51	adult	female	29.0	ITA	21882499	no	no	S00438	T2D
+S00439	StudyH_2018	T2D		stool	56	adult	male	25.8	FRA	23350458	no	no	S00439	T2D
+S00440	StudyH_2018	T2D		stool	45	adult	female	22.7	USA	22554136	no	no	S00440	T2D
+S00441	StudyH_2018	T2D		stool	68	adult	male	26.3	CHN	33543468	no	no	S00441	T2D
+S00442	StudyH_2018	T2D		stool	57	adult	male	20.3	DEU	28730353	no	no	S00442	T2D
+S00443	StudyH_2018	T2D		stool	73	adult	female	22.3	JPN	40921432	no	no	S00443	T2D
+S00444	StudyH_2018	T2D		stool	36	adult	male	24.0	ITA	33268978	no	no	S00444	T2D
+S00445	StudyH_2018	T2D		stool	68	adult	female	29.9	FRA	16976203	no	no	S00445	T2D
+S00446	StudyH_2018	T2D		stool	74	adult	male	34.9	USA	19738958	no	no	S00446	T2D
+S00447	StudyH_2018	T2D		stool	57	adult	male	25.2	CHN	21309913	no	no	S00447	T2D
+S00448	StudyH_2018	T2D		stool	73	adult	female	23.7	DEU	22267256	no	no	S00448	T2D
+S00449	StudyH_2018	T2D		stool	51	adult	male	27.0	JPN	26514497	no	no	S00449	T2D
+S00450	StudyH_2018	T2D		stool	66	adult	female	12.7	ITA	29045989	no	no	S00450	T2D
+S00451	StudyH_2018	T2D		stool	66	adult	female	25.6	FRA	21911890	no	no	S00451	T2D
+S00452	StudyH_2018	T2D		stool	42	adult	male	27.5	USA	30750387	no	no	S00452	T2D
+S00453	StudyH_2018	T2D		stool	41	adult	male	22.3	CHN	37570015	no	no	S00453	T2D
+S00454	StudyH_2018	T2D		stool	74	adult	male	26.0	DEU	26472665	no	no	S00454	T2D
+S00455	StudyH_2018	T2D		stool	63	adult	male	23.1	JPN	19386495	no	no	S00455	T2D
+S00456	StudyH_2018	T2D		stool	47	adult	male	22.5	ITA	28899735	no	no	S00456	T2D
+S00457	StudyH_2018	T2D		stool	37	adult	male	28.4	FRA	23523305	no	no	S00457	T2D
+S00458	StudyH_2018	T2D		stool	52	adult	male	27.7	USA	21806540	no	no	S00458	T2D
+S00459	StudyH_2018	control		stool	72	adult	female	28.5	CHN	42137492	no	no	S00459	healthy
+S00460	StudyH_2018	control		stool	33	adult	female	24.8	DEU	28381466	no	no	S00460	healthy
+S00461	StudyH_2018	control		stool	55	adult	male	27.6	JPN	23427003	no	no	S00461	healthy
+S00462	StudyH_2018	control		stool	60	adult	male	26.8	ITA	27675410	no	no	S00462	healthy
+S00463	StudyH_2018	control		stool	27	adult	female	33.2	FRA	23449243	no	no	S00463	healthy
+S00464	StudyH_2018	control		stool	32	adult	male	33.1	USA	22257161	no	no	S00464	healthy
+S00465	StudyH_2018	control		stool	48	adult	male	29.0	CHN	43713464	no	no	S00465	healthy
+S00466	StudyH_2018	control		stool	26	adult	female	28.5	DEU	31510947	no	no	S00466	healthy
+S00467	StudyH_2018	control		stool	72	adult	female	29.8	JPN	64148737	no	no	S00467	healthy
+S00468	StudyH_2018	control		stool	57	adult	male	24.5	ITA	58568231	no	no	S00468	healthy
+S00469	StudyH_2018	control		stool	49	adult	female	23.8	FRA	18400632	no	no	S00469	healthy
+S00470	StudyH_2018	control		stool	31	adult	male	20.4	USA	27851626	no	no	S00470	healthy
+S00471	StudyH_2018	control		stool	28	adult	female	28.4	CHN	26406927	no	no	S00471	healthy
+S00472	StudyH_2018	control		stool	45	adult	male	19.4	DEU	29450213	no	no	S00472	healthy
+S00473	StudyH_2018	control		stool	28	adult	male	26.6	JPN	24111885	no	no	S00473	healthy
+S00474	StudyH_2018	control		stool	53	adult	female	28.9	ITA	31614875	no	no	S00474	healthy
+S00475	StudyH_2018	control		stool	74	adult	male	24.8	FRA	36504313	no	no	S00475	healthy
+S00476	StudyH_2018	control		stool	44	adult	female	31.1	USA	31072202	no	no	S00476	healthy
+S00477	StudyH_2018	control		stool	64	adult	male	25.5	CHN	64951714	no	no	S00477	healthy
+S00478	StudyH_2018	control		stool	68	adult	male	28.2	DEU	30053260	no	no	S00478	healthy
+S00479	StudyH_2018	control		stool	63	adult	male	21.2	JPN	48544360	no	no	S00479	healthy
+S00480	StudyH_2018	control		stool	34	adult	female	23.6	ITA	35511065	no	no	S00480	healthy
+S00481	StudyH_2018	control		stool	35	adult	male	21.6	FRA	51963054	no	no	S00481	healthy
+S00482	StudyH_2018	control		stool	46	adult	female	24.7	USA	36498276	no	no	S00482	healthy
+S00483	StudyH_2018	control		stool	29	adult	female	23.5	CHN	27013058	no	no	S00483	healthy
+S00484	StudyH_2018	control		stool	53	adult	female	24.9	DEU	30660115	no	no	S00484	healthy
+S00485	StudyH_2018	control		stool	65	adult	female	23.0	JPN	30387269	no	no	S00485	healthy
+S00486	StudyH_2018	control		stool	68	adult	female	24.7	ITA	24015993	no	no	S00486	healthy
+S00487	StudyI_2022	T2D		stool	46	adult	male	26.3	FRA	36675778	no	no	S00487	T2D
+S00488	StudyI_2022	T2D		stool	25	adult	male	24.5	USA	33435114	no	no	S00488	T2D
+S00489	StudyI_2022	T2D		stool	58	adult	female	24.2	CHN	24547589	no	no	S00489	T2D
+S00490	StudyI_2022	T2D		stool	65	adult	male	28.8	DEU	20008613	no	no	S00490	T2D
+S00491	StudyI_2022	T2D		stool	39	adult	male	19.2	JPN	37455408	no	no	S00491	T2D
+S00492	StudyI_2022	T2D		stool	64	adult	female	26.5	ITA	22309476	no	no	S00492	T2D
+S00493	StudyI_2022	T2D		stool	40	adult	male	26.3	FRA	13935270	no	no	S00493	T2D
+S00494	StudyI_2022	T2D		stool	31	adult	female	26.2	USA	35750286	no	no	S00494	T2D
+S00495	StudyI_2022	T2D		stool	48	adult	male	32.2	CHN	20159040	no	no	S00495	T2D
+S00496	StudyI_2022	T2D		stool	63	adult	male	23.7	DEU	47473974	no	no	S00496	T2D
+S00497	StudyI_2022	T2D		stool	69	adult	male	26.4	JPN	21018477	no	no	S00497	T2D
+S00498	StudyI_2022	T2D		stool	62	adult	male	26.1	ITA	30949237	no	no	S00498	T2D
+S00499	StudyI_2022	T2D		stool	40	adult	male	22.8	FRA	31971286	no	no	S00499	T2D
+S00500	StudyI_2022	T2D		stool	40	adult	male	28.7	USA	34306499	no	no	S00500	T2D
+S00501	StudyI_2022	T2D		stool	30	adult	male	25.0	CHN	54238673	no	no	S00501	T2D
+S00502	StudyI_2022	T2D		stool	62	adult	female	22.7	DEU	35059114	no	no	S00502	T2D
+S00503	StudyI_2022	T2D		stool	66	adult	male	27.7	JPN	31595225	no	no	S00503	T2D
+S00504	StudyI_2022	T2D		stool	42	adult	male	19.9	ITA	33351064	no	no	S00504	T2D
+S00505	StudyI_2022	T2D		stool	32	adult	male	25.9	FRA	29883447	no	no	S00505	T2D
+S00506	StudyI_2022	T2D		stool	37	adult	female	21.3	USA	26636266	no	no	S00506	T2D
+S00507	StudyI_2022	T2D		stool	39	adult	male	28.7	CHN	16073619	no	no	S00507	T2D
+S00508	StudyI_2022	T2D		stool	42	adult	male	19.6	DEU	33219868	no	no	S00508	T2D
+S00509	StudyI_2022	T2D		stool	73	adult	male	24.2	JPN	39193183	no	no	S00509	T2D
+S00510	StudyI_2022	T2D		stool	52	adult	female	27.2	ITA	34191655	no	no	S00510	T2D
+S00511	StudyI_2022	T2D		stool	55	adult	male	24.0	FRA	41279167	no	no	S00511	T2D
+S00512	StudyI_2022	control		stool	35	adult	male	25.0	USA	24182653	no	no	S00512	healthy
+S00513	StudyI_2022	control		stool	33	adult	male	25.5	CHN	43058860	no	no	S00513	healthy
+S00514	StudyI_2022	control		stool	45	adult	male	28.8	DEU	19734328	no	no	S00514	healthy
+S00515	StudyI_2022	control		stool	57	adult	male	19.4	JPN	34613151	no	no	S00515	healthy
+S00516	StudyI_2022	control		stool	56	adult	female	23.9	ITA	37412213	no	no	S00516	healthy
+S00517	StudyI_2022	control		stool	67	adult	male	27.9	FRA	42626526	no	no	S00517	healthy
+S00518	StudyI_2022	control		stool	56	adult	male	20.5	USA	40789617	no	no	S00518	healthy
+S00519	StudyI_2022	control		stool	36	adult	male	30.1	CHN	37575691	no	no	S00519	healthy
+S00520	StudyI_2022	control		stool	33	adult	male	23.8	DEU	30672573	no	no	S00520	healthy
+S00521	StudyI_2022	control		stool	64	adult	female	20.9	JPN	44200605	no	no	S00521	healthy
+S00522	StudyI_2022	control		stool	71	adult	female	22.5	ITA	42326788	no	no	S00522	healthy
+S00523	StudyI_2022	control		stool	32	adult	female	23.5	FRA	57089733	no	no	S00523	healthy
+S00524	StudyI_2022	control		stool	50	adult	female	25.6	USA	20710641	no	no	S00524	healthy
+S00525	StudyI_2022	control		stool	40	adult	male	28.4	CHN	30030021	no	no	S00525	healthy
+S00526	StudyI_2022	control		stool	40	adult	female	21.7	DEU	36297706	no	no	S00526	healthy
+S00527	StudyI_2022	control		stool	28	adult	female	27.5	JPN	26437035	no	no	S00527	healthy
+S00528	StudyI_2022	control		stool	44	adult	male	24.3	ITA	22941282	no	no	S00528	healthy
+S00529	StudyI_2022	control		stool	54	adult	female	25.3	FRA	32153098	no	no	S00529	healthy
+S00530	StudyI_2022	control		stool	61	adult	male	18.0	USA	28379492	no	no	S00530	healthy
+S00531	StudyI_2022	control		stool	46	adult	male	27.3	CHN	30297703	no	no	S00531	healthy
+S00532	StudyI_2022	control		stool	61	adult	female	21.7	DEU	36655370	no	no	S00532	healthy
+S00533	StudyI_2022	control		stool	55	adult	female	25.0	JPN	37823043	no	no	S00533	healthy
+S00534	StudyI_2022	control		stool	38	adult	female	31.1	ITA	46925887	no	no	S00534	healthy
+S00535	StudyI_2022	control		stool	27	adult	female	16.8	FRA	56710117	no	no	S00535	healthy
+S00536	StudyI_2022	control		stool	52	adult	female	22.8	USA	25793187	no	no	S00536	healthy
+S00537	StudyJ_2021	adenoma		stool	67	adult	female	29.9	CHN	18820320	no	no	S00537	adenoma
+S00538	StudyJ_2021	adenoma		stool	38	adult	male	26.2	DEU	28844498	no	no	S00538	adenoma
+S00539	StudyJ_2021	adenoma		stool	57	adult	male	19.4	JPN	29969942	no	no	S00539	adenoma
+S00540	StudyJ_2021	adenoma		stool	74	adult	male	32.8	ITA	55052222	no	no	S00540	adenoma
+S00541	StudyJ_2021	adenoma		stool	35	adult	female	18.1	FRA	54809133	no	no	S00541	adenoma
+S00542	StudyJ_2021	adenoma		stool	26	adult	male	19.9	USA	44217363	no	no	S00542	adenoma
+S00543	StudyJ_2021	adenoma		stool	39	adult	male	24.7	CHN	58709683	no	no	S00543	adenoma
+S00544	StudyJ_2021	adenoma		stool	55	adult	male	27.0	DEU	40185927	no	no	S00544	adenoma
+S00545	StudyJ_2021	adenoma		stool	57	adult	male	23.7	JPN	44699861	no	no	S00545	adenoma
+S00546	StudyJ_2021	adenoma		stool	49	adult	female	22.4	ITA	42047499	no	no	S00546	adenoma
+S00547	StudyJ_2021	adenoma		stool	65	adult	male	24.3	FRA	28193707	no	no	S00547	adenoma
+S00548	StudyJ_2021	adenoma		stool	57	adult	female	31.6	USA	40500839	no	no	S00548	adenoma
+S00549	StudyJ_2021	adenoma		stool	68	adult	female	25.6	CHN	43824378	no	no	S00549	adenoma
+S00550	StudyJ_2021	adenoma		stool	27	adult	female	21.5	DEU	12881552	no	no	S00550	adenoma
+S00551	StudyJ_2021	adenoma		stool	61	adult	female	18.3	JPN	30561683	no	no	S00551	adenoma
+S00552	StudyJ_2021	adenoma		stool	65	adult	male	21.6	ITA	21268979	no	no	S00552	adenoma
+S00553	StudyJ_2021	adenoma		stool	45	adult	female	23.9	FRA	31462963	no	no	S00553	adenoma
+S00554	StudyJ_2021	adenoma		stool	51	adult	male	26.9	USA	44134014	no	no	S00554	adenoma
+S00555	StudyJ_2021	adenoma		stool	67	adult	female	27.8	CHN	18138640	no	no	S00555	adenoma
+S00556	StudyJ_2021	adenoma		stool	44	adult	female	26.8	DEU	23731760	no	no	S00556	adenoma
+S00557	StudyJ_2021	adenoma		stool	44	adult	female	32.7	JPN	41908563	no	no	S00557	adenoma
+S00558	StudyJ_2021	adenoma		stool	61	adult	female	31.5	ITA	24797076	no	no	S00558	adenoma
+S00559	StudyJ_2021	control		stool	33	adult	male	31.7	FRA	32956172	no	no	S00559	healthy
+S00560	StudyJ_2021	control		stool	48	adult	female	24.0	USA	30170972	no	no	S00560	healthy
+S00561	StudyJ_2021	control		stool	31	adult	male	27.9	CHN	19249538	no	no	S00561	healthy
+S00562	StudyJ_2021	control		stool	63	adult	female	25.9	DEU	54566855	no	no	S00562	healthy
+S00563	StudyJ_2021	control		stool	57	adult	female	26.3	JPN	30988421	no	no	S00563	healthy
+S00564	StudyJ_2021	control		stool	37	adult	female	23.7	ITA	34335477	no	no	S00564	healthy
+S00565	StudyJ_2021	control		stool	56	adult	female	22.8	FRA	32356507	no	no	S00565	healthy
+S00566	StudyJ_2021	control		stool	71	adult	male	24.6	USA	30477301	no	no	S00566	healthy
+S00567	StudyJ_2021	control		stool	61	adult	male	25.7	CHN	18631828	no	no	S00567	healthy
+S00568	StudyJ_2021	control		stool	34	adult	male	36.1	DEU	43926149	no	no	S00568	healthy
+S00569	StudyJ_2021	control		stool	26	adult	male	18.8	JPN	21629993	no	no	S00569	healthy
+S00570	StudyJ_2021	control		stool	34	adult	female	26.2	ITA	35293468	no	no	S00570	healthy
+S00571	StudyJ_2021	control		stool	38	adult	male	17.3	FRA	22335139	no	no	S00571	healthy
+S00572	StudyJ_2021	control		stool	45	adult	female	23.8	USA	42279620	no	no	S00572	healthy
+S00573	StudyJ_2021	control		stool	59	adult	female	23.1	CHN	20394928	no	no	S00573	healthy
+S00574	StudyJ_2021	control		stool	65	adult	male	21.3	DEU	26011368	no	no	S00574	healthy
+S00575	StudyJ_2021	control		stool	70	adult	male	25.3	JPN	28664984	no	no	S00575	healthy
+S00576	StudyJ_2021	control		stool	51	adult	male	28.4	ITA	37616586	no	no	S00576	healthy
+S00577	StudyJ_2021	control		stool	29	adult	male	31.7	FRA	80656348	no	no	S00577	healthy
+S00578	StudyJ_2021	control		stool	48	adult	female	20.9	USA	39126024	no	no	S00578	healthy
+S00579	StudyJ_2021	control		stool	47	adult	male	28.5	CHN	45266687	no	no	S00579	healthy
+S00580	StudyJ_2021	control		stool	36	adult	male	34.0	DEU	43456660	no	no	S00580	healthy
+S00581	StudyK_2019	adenoma		stool	54	adult	male	31.6	JPN	21811775	no	no	S00581	adenoma
+S00582	StudyK_2019	adenoma		stool	72	adult	male	23.5	ITA	42376034	no	no	S00582	adenoma
+S00583	StudyK_2019	adenoma		stool	28	adult	female	25.8	FRA	21369005	no	no	S00583	adenoma
+S00584	StudyK_2019	adenoma		stool	57	adult	female	23.1	USA	44178133	no	no	S00584	adenoma
+S00585	StudyK_2019	adenoma		stool	49	adult	female	21.3	CHN	28327164	no	no	S00585	adenoma
+S00586	StudyK_2019	adenoma		stool	30	adult	female	24.4	DEU	24280682	no	no	S00586	adenoma
+S00587	StudyK_2019	adenoma		stool	69	adult	female	25.9	JPN	47563002	no	no	S00587	adenoma
+S00588	StudyK_2019	adenoma		stool	60	adult	female	29.1	ITA	49494337	no	no	S00588	adenoma
+S00589	StudyK_2019	adenoma		stool	36	adult	male	22.7	FRA	52748657	no	no	S00589	adenoma
+S00590	StudyK_2019	adenoma		stool	67	adult	male	27.7	USA	46115763	no	no	S00590	adenoma
+S00591	StudyK_2019	adenoma		stool	50	adult	male	20.2	CHN	63639923	no	no	S00591	adenoma
+S00592	StudyK_2019	adenoma		stool	39	adult	female	31.6	DEU	26996823	no	no	S00592	adenoma
+S00593	StudyK_2019	adenoma		stool	32	adult	female	23.2	JPN	52683684	no	no	S00593	adenoma
+S00594	StudyK_2019	adenoma		stool	65	adult	female	26.3	ITA	28609345	no	no	S00594	adenoma
+S00595	StudyK_2019	adenoma		stool	50	adult	male	31.9	FRA	14067072	no	no	S00595	adenoma
+S00596	StudyK_2019	adenoma		stool	27	adult	female	29.8	USA	28626254	no	no	S00596	adenoma
+S00597	StudyK_2019	adenoma		stool	38	adult	male	23.9	CHN	47864491	no	no	S00597	adenoma
+S00598	StudyK_2019	adenoma		stool	55	adult	female	24.4	DEU	29495603	no	no	S00598	adenoma
+S00599	StudyK_2019	adenoma		stool	73	adult	female	23.6	JPN	28923960	no	no	S00599	adenoma
+S00600	StudyK_2019	adenoma		stool	70	adult	male	24.8	ITA	38676450	no	no	S00600	adenoma
+S00601	StudyK_2019	control		stool	47	adult	male	23.9	FRA	26201614	no	no	S00601	healthy
+S00602	StudyK_2019	control		stool	38	adult	male	29.9	USA	29467596	no	no	S00602	healthy
+S00603	StudyK_2019	control		stool	49	adult	male	15.8	CHN	59098835	no	no	S00603	healthy
+S00604	StudyK_2019	control		stool	71	adult	male	19.5	DEU	36201990	no	no	S00604	healthy
+S00605	StudyK_2019	control		stool	42	adult	female	25.9	JPN	34876505	no	no	S00605	healthy
+S00606	StudyK_2019	control		stool	63	adult	female	24.5	ITA	19609728	no	no	S00606	healthy
+S00607	StudyK_2019	control		stool	37	adult	female	21.3	FRA	63423434	no	no	S00607	healthy
+S00608	StudyK_2019	control		stool	37	adult	male	28.3	USA	24173896	no	no	S00608	healthy
+S00609	StudyK_2019	control		stool	31	adult	male	25.9	CHN	60212554	no	no	S00609	healthy
+S00610	StudyK_2019	control		stool	41	adult	male	28.2	DEU	51389032	no	no	S00610	healthy
+S00611	StudyK_2019	control		stool	51	adult	male	20.4	JPN	33846869	no	no	S00611	healthy
+S00612	StudyK_2019	control		stool	72	adult	male	24.8	ITA	35143293	no	no	S00612	healthy
+S00613	StudyK_2019	control		stool	39	adult	female	23.4	FRA	45155609	no	no	S00613	healthy
+S00614	StudyK_2019	control		stool	29	adult	male	18.1	USA	54523369	no	no	S00614	healthy
+S00615	StudyK_2019	control		stool	64	adult	male	27.1	CHN	61868663	no	no	S00615	healthy
+S00616	StudyK_2019	control		stool	38	adult	male	21.6	DEU	38022273	no	no	S00616	healthy
+S00617	StudyK_2019	control		stool	37	adult	female	15.7	JPN	55327433	no	no	S00617	healthy
+S00618	StudyK_2019	control		stool	50	adult	female	25.1	ITA	35316279	no	no	S00618	healthy
+S00619	StudyK_2019	control		stool	72	adult	female	28.4	FRA	30453893	no	no	S00619	healthy
+S00620	StudyK_2019	control		stool	37	adult	female	26.1	USA	28748883	no	no	S00620	healthy
+S00621	StudyL_2020	adenoma		stool	42	adult	male	30.8	CHN	23942592	no	no	S00621	adenoma
+S00622	StudyL_2020	adenoma		stool	56	adult	male	24.5	DEU	23703946	no	no	S00622	adenoma
+S00623	StudyL_2020	adenoma		stool	72	adult	female	29.1	JPN	27385709	no	no	S00623	adenoma
+S00624	StudyL_2020	adenoma		stool	58	adult	female	29.8	ITA	20089588	no	no	S00624	adenoma
+S00625	StudyL_2020	adenoma		stool	69	adult	female	19.2	FRA	46976882	no	no	S00625	adenoma
+S00626	StudyL_2020	adenoma		stool	44	adult	male	29.9	USA	36137606	no	no	S00626	adenoma
+S00627	StudyL_2020	adenoma		stool	72	adult	female	27.0	CHN	42920220	no	no	S00627	adenoma
+S00628	StudyL_2020	adenoma		stool	63	adult	male	24.1	DEU	45262811	no	no	S00628	adenoma
+S00629	StudyL_2020	adenoma		stool	46	adult	female	29.6	JPN	46538091	no	no	S00629	adenoma
+S00630	StudyL_2020	adenoma		stool	70	adult	male	15.9	ITA	32698162	no	no	S00630	adenoma
+S00631	StudyL_2020	adenoma		stool	54	adult	female	24.6	FRA	26685727	no	no	S00631	adenoma
+S00632	StudyL_2020	adenoma		stool	42	adult	male	19.0	USA	42492988	no	no	S00632	adenoma
+S00633	StudyL_2020	adenoma		stool	35	adult	male	16.5	CHN	27073067	no	no	S00633	adenoma
+S00634	StudyL_2020	adenoma		stool	52	adult	female	21.9	DEU	30355203	no	no	S00634	adenoma
+S00635	StudyL_2020	adenoma		stool	48	adult	female	27.5	JPN	34168732	no	no	S00635	adenoma
+S00636	StudyL_2020	adenoma		stool	70	adult	female	26.8	ITA	24669806	no	no	S00636	adenoma
+S00637	StudyL_2020	adenoma		stool	25	adult	male	23.2	FRA	46259478	no	no	S00637	adenoma
+S00638	StudyL_2020	adenoma		stool	34	adult	female	18.4	USA	31325532	no	no	S00638	adenoma
+S00639	StudyL_2020	adenoma		stool	61	adult	male	20.8	CHN	56023431	no	no	S00639	adenoma
+S00640	StudyL_2020	adenoma		stool	28	adult	male	24.4	DEU	42086217	no	no	S00640	adenoma
+S00641	StudyL_2020	control		stool	35	adult	female	26.4	JPN	47801729	no	no	S00641	healthy
+S00642	StudyL_2020	control		stool	31	adult	male	24.6	ITA	21987561	no	no	S00642	healthy
+S00643	StudyL_2020	control		stool	28	adult	male	24.2	FRA	29712466	no	no	S00643	healthy
+S00644	StudyL_2020	control		stool	25	adult	male	22.1	USA	39829096	no	no	S00644	healthy
+S00645	StudyL_2020	control		stool	68	adult	male	28.8	CHN	30677214	no	no	S00645	healthy
+S00646	StudyL_2020	control		stool	54	adult	female	33.6	DEU	41836665	no	no	S00646	healthy
+S00647	StudyL_2020	control		stool	51	adult	female	26.8	JPN	29722542	no	no	S00647	healthy
+S00648	StudyL_2020	control		stool	34	adult	male	23.3	ITA	55353804	no	no	S00648	healthy
+S00649	StudyL_2020	control		stool	38	adult	male	22.1	FRA	46697558	no	no	S00649	healthy
+S00650	StudyL_2020	control		stool	58	adult	female	21.7	USA	61051830	no	no	S00650	healthy
+S00651	StudyL_2020	control		stool	36	adult	male	19.5	CHN	30431607	no	no	S00651	healthy
+S00652	StudyL_2020	control		stool	57	adult	male	24.3	DEU	26510508	no	no	S00652	healthy
+S00653	StudyL_2020	control		stool	70	adult	male	22.4	JPN	38877754	no	no	S00653	healthy
+S00654	StudyL_2020	control		stool	52	adult	female	25.5	ITA	24884487	no	no	S00654	healthy
+S00655	StudyL_2020	control		stool	35	adult	male	26.5	FRA	42509879	no	no	S00655	healthy
+S00656	StudyL_2020	control		stool	53	adult	male	24.5	USA	37021959	no	no	S00656	healthy
+S00657	StudyL_2020	control		stool	49	adult	female	25.9	CHN	49213389	no	no	S00657	healthy
+S00658	StudyL_2020	control		stool	66	adult	male	27.5	DEU	37297825	no	no	S00658	healthy
+S00659	StudyL_2020	control		stool	25	adult	female	24.2	JPN	29234964	no	no	S00659	healthy
+S00660	StudyL_2020	control		stool	65	adult	female	24.8	ITA	40737324	no	no	S00660	healthy

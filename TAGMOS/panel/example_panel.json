@@ -1,0 +1,24 @@
+{
+  "_comment": "PLACEHOLDER PANEL. Generic central-metabolism and housekeeping enzymes, grouped only so that the pipeline has something to run on. This is NOT the panel used in the paper and carries no biological claim.",
+  "GLYCOLYSIS_demo": {
+    "ecs": ["2.7.1.11", "4.1.2.13", "5.3.1.1", "1.2.1.12"],
+    "valence": "protective"
+  },
+  "TCA_demo": {
+    "ecs": ["4.2.1.3", "1.1.1.37", "6.2.1.5"],
+    "valence": "context"
+  },
+  "PROTEOLYSIS_demo": {
+    "ecs": ["3.4.11.1", "3.5.1.2", "2.6.1.1"],
+    "valence": "danger"
+  },
+  "NUCLEOTIDE_demo": {
+    "ecs": ["2.4.2.10", "1.1.1.205"],
+    "valence": "context"
+  },
+  "RATIO_demo": {
+    "num": ["2.7.1.11"],
+    "den": ["4.2.1.3"],
+    "valence": "context"
+  }
+}

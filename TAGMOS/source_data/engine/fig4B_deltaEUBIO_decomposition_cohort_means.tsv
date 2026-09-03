@@ -1,0 +1,11 @@
+cohort	intervention	dEUBIO_total	dEUBIO_engine	dEUBIO_channels	frac_engine	frac_channels
+BarYoseph	fmt	0.443	0.239	0.204	0.582	0.418
+Damman	fmt	0.373	0.546	-0.174	0.684	0.316
+FMT_a	fmt	1.888	1.359	0.529	0.69	0.31
+FMT_b	fmt	0.07	-0.044	0.114	0.532	0.468
+FMT_c	fmt	1.633	1.277	0.356	0.621	0.379
+Hourigan	fmt	1.491	0.891	0.6	0.563	0.437
+Palleja	antibiotics	-2.239	-2.055	-0.183	0.731	0.269
+Podlesny	fmt	-0.008	0.028	-0.036	0.628	0.372
+Watson	fmt	1.801	1.326	0.475	0.659	0.341
+Willmann	antibiotics	-0.14	-0.123	-0.017	0.658	0.342
