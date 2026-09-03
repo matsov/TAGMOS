@@ -40,11 +40,6 @@ Python 3.10 or later; numpy, pandas and scipy. Nothing is downloaded at run
 time. The example data are synthetic and carry no biological meaning: they are
 there so that every script can be run and inspected without any private input.
 
-## The three stages, and where the boundary is
-
-The pipeline has three stages. The first and the third are here in full. The
-second is not, and it is the one thing worth reading before anything else.
-
 ### 1 · Public profiles to enzyme coordinates
 
 `ec_matrix/build_ec_matrix.py`
@@ -84,7 +79,7 @@ Everything the paper claims methodologically lives here. None of it needs to
 know how a score was computed, so all of it is in this repository, and all of it
 runs on any panel you supply.
 
-| script | what it computes |
+| script | function |
 |---|---|
 | `threshold_vs_mean.py` | for every axis and condition, the mean reading (OR per SD) against the threshold reading (OR for the dysbiotic tail), and the class of each association |
 | `threshold_vs_mean_sensitivity.py` | the same across gate thresholds and FDR cutoffs, showing the threshold-only fraction is not an artefact of either |
